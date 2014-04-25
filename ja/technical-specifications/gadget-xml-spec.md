@@ -1,0 +1,435 @@
+# ガジェットXMLに関する技術仕様
+
+infoScoop OpenSourceで使われるGadget XMLはOpenSocialの[ガジェットXMLスキーマ][Gadget XML Schema]に基づいています。
+ここに記載されていない属性については動作を保証しません。
+
+**/Module**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+    	<td>@specificationVersion</td>
+    	<td>
+        	OpenSocial仕様のバージョンです。<br>
+            この値が2.0より低い場合、ブラウザ内のガジェットはquirksモードで表示されます。2.0かそれ以上の場合、ガジェットはHTML5で表示されます。
+    	<td>1.0</td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+    	<td>@title</td>
+    	<td>ガジェットのタイトルです。ガジェットのヘッダー部分に表示されます。</td>
+    	<td>必須</td>
+    </tr>
+	<tr>
+    	<td>@title_url</td>
+    	<td>タイトルが表示された場合にリンクになります。</td>
+    	<td></td>
+    </tr>
+	<tr>
+    	<td>@height</td>
+    	<td>ガジェットの初期表示の高さ（ピクセル）です。</td>
+    	<td>200</td>
+    </tr>
+	<tr>
+    	<td>@doctype</td>
+    	<td>表示方法を指定する文字列です。「quirksmode」が指定された場合、ブラウザ内のガジェットはquirksモードで表示されます。</td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/Require and /ModulePrefs/Optional**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+    	<td>@feature</td>
+    	<td>
+        	Featureの名前です。<br>
+            Featureについての詳細は、<a href="available-features.md">利用可能なFeature一覧</a>を参照してください。
+        </td>
+    	<td>必須</td>
+    </tr>
+	<tr>
+    	<td>@views</td>
+    	<td>
+        	このFeatureを読み込むviewのリスト（カンマ区切り）です。<br>
+            利用可能なビューの詳細は、<a href="available-features.md">利用可能なFeature一覧</a>を参照してください。
+        </td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/Require/Param and /ModulePrefs/Optional/Param**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+	<tr>
+    	<td>@name</td>
+    	<td>
+        	パラメーターの名前です。<br>
+            どのパラメーターが使えるかはFeatureによって異なります。
+        </td>
+    	<td>必須</td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/Locale**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@lang</td>
+    	<td>このロケールに対する言語です。</td>
+    	<td>ALL</td>
+    </tr>
+   	<tr>
+    	<td>@country</td>
+    	<td>このロケールに対する国です。</td>
+    	<td>ALL</td>
+    </tr>
+   	<tr>
+    	<td>@messages</td>
+    	<td>メッセージバンドルのURLです。</td>
+    	<td></td>
+    </tr>
+   	<tr>
+    	<td>@language_direction</td>
+    	<td>ガジェットの表示方向を指定します。有効な値は 「rtl」（右から左）と「ltr」（左から右）です。</td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/Locale/msg**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@name</td>
+    	<td>地域化されたメッセージの名前です。</td>
+    	<td>必須</td>
+    </tr>
+   	<tr>
+    	<td>text()</td>
+    	<td>
+        	メッセージの値です。<br>
+            この値はJavaScript API methodから取得できます。 「gadgets.Prefs.getMsg(@name)」で取得、または、「__MSG_{@name}__」で置換できます。
+        </td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth**  
+OAuth認証を持つコンテナへの接続設定をガジェットに提供します。
+このタグは属性を持ちませんが、子要素を持ちます。
+
+**/ModulePrefs/OAuth/Service**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@name</td>
+    	<td>ランタイムでOAuthサービスを参照するときに使われるサービスの名前です。ガジェット開発者は「gadget.io.makeRequest」のパラメーターとしてサービス名を渡すことで、利用するOAuthサービスを指定します。</td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth/Service/Request**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@url</td>
+    	<td>リクエストトークンを取得するためのURLです。</td>
+    	<td>必須</td>
+    </tr>
+   	<tr>
+    	<td>@method</td>
+    	<td>HTTPリクエストを行うときに使われるメソッドです。(GET | POST)</td>
+    	<td>POST</td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth/Service/Access**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@url</td>
+    	<td>アクセストークンを取得するためのURLです。</td>
+    	<td>必須</td>
+    </tr>
+   	<tr>
+    	<td>@method</td>
+    	<td>HTTPリクエストを行うときに使われるメソッドです。(GET | POST)</td>
+    	<td>POST</td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth/Service/Authorization**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@url</td>
+    	<td>OAuthの認証URLです。</td>
+    	<td>必須</td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth2**  
+OAuth 2.0認証を持つコンテナへの接続設定をガジェットに提供します。
+このタグは属性を持ちませんが、子要素を持ちます。
+
+**/ModulePrefs/OAuth2/Service**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@name</td>
+    	<td>ランタイムでOAuth 2.0サービスを参照するときに使われるサービスの名前です。ガジェット開発者は「gadget.io.makeRequest」のパラメーターとしてサービス名を渡すことで、利用するOAuthサービスを指定します。</td>
+    	<td></td>
+    </tr>
+   	<tr>
+    	<td>@scope</td>
+    	<td>リクエスト時にデフォルトで使われるOAuth 2.0のスコープパラメーターの値です。この値は、「gadgets.io.RequestParameters.OAUTH2_SCOPE」が使われると置き換えられます。</td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth2/Service/Authorization**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@url</td>
+    	<td>認証コードを取得するためのURLです。</td>
+    	<td>必須</td>
+    </tr>
+   	<tr>
+    	<td>@method</td>
+    	<td>HTTPリクエストを行うときに使われるメソッドです。(GET | POST)</td>
+    	<td>GET</td>
+    </tr>
+    </tbody>
+</table>
+
+**/ModulePrefs/OAuth2/Service/Token**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@url</td>
+    	<td>アクセストークンを取得するためのURLです。</td>
+    	<td>必須</td>
+    </tr>
+    </tbody>
+</table>
+
+**/UserPref**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@name</td>
+    	<td>
+        	設定値の名前です。<br>
+            この属性値に「default」、「enum」という文字列は使用できません。
+        </td>
+    	<td>必須</td>
+    </tr>
+   	<tr>
+    	<td>@datatype</td>
+    	<td>
+        	この設定のデータタイプです。この属性に設定できる値は「string」、「hidden」、「bool」、「list」、「number」になります。<br>
+            @datatypeが「list」の際、UserPrefの値に「%7C」という文字列を入力した場合、「|」に置換します。
+        </td>
+    	<td>string</td>
+    </tr>
+   	<tr>
+    	<td>@display_name</td>
+    	<td>画面表示に利用される設定名です。<br>
+            この値を設定しなかった場合、@nameが画面表示に使われます。
+    	<td></td>
+    </tr>
+   	<tr>
+    	<td>@default_value</td>
+    	<td>この設定の初期値です。</td>
+    	<td></td>
+    </tr>
+   	<tr>
+    	<td>@required</td>
+    	<td>この設定をガジェットの必須項目にするかどうかの判定に用いる属性です。この属性に設定できる値は、「true」と「false」になります。</td>
+    	<td>false</td>
+    </tr>
+    </tbody>
+</table>
+
+**/UserPref/EnumValue**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@value</td>
+    	<td>列挙型要素の値です。</td>
+    	<td>必須</td>
+    </tr>
+   	<tr>
+    	<td>@display_value</td>
+    	<td>画面表示に使われる属性です。設定しなかった場合、@valueの値が画面表示に使われます。</td>
+    	<td>@valueの値</td>
+    </tr>
+    </tbody>
+</table>
+
+**/Content**
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>説明</th>
+            <th>必須／初期値</th>
+        </tr>
+    </thead>
+    <tbody>
+   	<tr>
+    	<td>@type</td>
+    	<td>
+        	この要素内のコンテンツタイプです。この属性に設定できる値は「html」、「url」になります。<br>
+            @typeが「html」の場合、ガジェットはコンテナー内で動作します。<br>
+            @typeが「url」の場合、ガジェットは/Content@hrefで指定されたURLで動作します。
+        </td>
+    	<td>html</td>
+    </tr>
+   	<tr>
+    	<td>@href</td>
+    	<td>
+        	@typeが「url」の場合、この値は必須項目となります。<br>
+            ガジェット内にURLで指定された内容が表示されます。
+        </td>
+    	<td></td>
+    </tr>
+   	<tr>
+    	<td>@view</td>
+    	<td>
+        	「home」または「canvas」のいずれかを属性値として指定することができます。<br>
+            「home」は標準時の表示になります。<br>
+            「canvas」は最大化時の表示になります。
+        </td>
+    	<td>home</td>
+    </tr>
+   	<tr>
+    	<td>text()</td>
+    	<td>@typeが「html」の際、@href属性が指定されていなければ、ここに記述されたHTMLがガジェット内にレンダリングされます。</td>
+    	<td></td>
+    </tr>
+    </tbody>
+</table>
+
+
+[Gadget XML Schema]: http://opensocial-resources.googlecode.com/svn/spec/trunk/Core-Gadget.xml#GadgetXmlSchema "ガジェットXMLスキーマ"
