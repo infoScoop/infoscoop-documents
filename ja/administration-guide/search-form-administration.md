@@ -79,15 +79,15 @@ infoScoop OpenSourceには、2つの検索機能があります。
                 検索サイトに対して検索を実行するURLです。置換文字列${KEYWORD}をアドレス内に記述すると、検索実行時にキーワードに置換されます。<br>
                 例: 置換文字列を使用した検索アドレス記述<br>
                 (検索アドレス)<br>
-                http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=${KEYWORD}&key2=${KEYWORD}<br>
+                <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=${KEYWORD}&key2=${KEYWORD}</code><br>
                 (検索実行時)<br>
-                http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=キーワード&key2=キーワード<br>
+                <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=キーワード&key2=キーワード</code><br>
                 置換文字列をアドレス内に記述しなかった場合、URLの末尾にキーワードが付与されて実行されます。<br>
                 例: 置換文字列を使用しない検索アドレス記述<br>
                 (検索アドレス)<br>
-                http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=<br>
+                <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=</code><br>
                 (検索実行時)<br>
-                http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=キーワード<br>
+                <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=キーワード</code><br>
                 検索アドレスは、最大512文字まで入力可能です。
             </td>
         </tr>
@@ -153,7 +153,7 @@ infoScoop OpenSourceには、2つの検索機能があります。
             <td>
                 検索サイトに対して検索を実行するURLです。URLの末尾にキーワードが付与されて実行されます。<br>
                 例: BeaconITホームページ<br>
-                http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=<br>
+                <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=</code><br>
                 サイト内検索に指定する検索アドレスには、前方参照"$n"でマッチしたn番目のグループを参照できます。<br>
                 また、空文字を指定した場合は、指定したパターンにマッチするRSSは検索対象外となり、RSSリーダー/まとめてRSSリーダーのヘッダにあるサイト内検索用のアイコンが非表示になります。<br>
                 検索アドレスは、最大512文字まで入力可能です。

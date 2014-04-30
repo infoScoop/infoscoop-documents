@@ -39,7 +39,7 @@ OAuth のバージョン (1.0 固定) です。
 **oauth_signature**  
 リクエストの妥当性を検証するための署名です。
 
-RSA証明書の設定については、[OAuth管理][OAuth Administration] の「3.2 コンテナの証明書」を参照してください。
+RSA証明書の設定については、管理ガイドの<a href="../administration-guide/oauth-administration.md#container_cert">3.2 コンテナの証明書</a>を参照してください。
 
 
 [OAuth Consumer Request 1.0 Draft 1]: http://oauth.googlecode.com/svn/spec/ext/consumer_request/1.0/drafts/1/spec.html

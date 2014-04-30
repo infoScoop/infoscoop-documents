@@ -1,6 +1,6 @@
 # ミニブラウザ
 
-ミニブラウザの追加は、メニューまたはサイドメニューのコンテンツの追加タブ（[任意のWebサイトを登録する][Register an Optional Web Site]参照）から行います。  
+ミニブラウザの追加は、メニューまたはサイドメニューのコンテンツの追加タブ（[任意のWebサイトを登録する][Register an Optional Web Site]を参照）から行います。  
 以下の画像はミニブラウザにBeaconITのホームページを設定した場合です。
 
 ![ミニブラウザ][MiniBrowser Gadget]
@@ -62,7 +62,7 @@
 
 ## メニューの説明
 
-メニューを開くアイコン![ガジェットメニュー表示アイコン][gadget-menu-open-icon]をクリックすると、ガジェットのメニューが開きます。
+メニューを開くアイコン![ガジェットメニュー表示アイコン][Gadget Menu icon]をクリックすると、ガジェットのメニューが開きます。
 
 ![ミニブラウザのガジェットメニューの表示][Description of the Menu]
 
@@ -107,12 +107,13 @@
 ## 高さ調整
 
 ガジェット下部の領域にマウスを重ねるか下部中央にあるハンドルにマウスを重ねると、ガジェットの高さを調整するモードになります。  
-ドラッグ&ドロップでガジェットの高さを調整することができます。
+ドラッグ＆ドロップでガジェットの高さを調整することができます。
 
 ![高さ調整ハンドル][Adjust the height]
 
 
 [Register an Optional Web Site]: registering-an-optional-web-site.md "任意のWebサイトを登録する"
 [MiniBrowser Gadget]: images/widget/minibrowser-gadget-1.png "ミニブラウザ"
+[Gadget Menu icon]: ../../images/show_hidden_icons.gif "ガジェットメニューアイコン"
 [Description of the Menu]: images/widget/minibrowser-gadget-2.png "ミニブラウザのガジェットメニューの表示"
 [Adjust the height]: images/widget/minibrowser-gadget-4.png "高さ調整ハンドル"

@@ -74,10 +74,6 @@ In order to use these functions, please describe like **&lt;Require feature="dyn
     	<td nowrap>views</td>
         <td>The function for operating about views.</td>
     </tr>
-	<tr>
-    	<td nowrap></td>
-        <td></td>
-    </tr>
     </tbody>
 </table>
 

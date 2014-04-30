@@ -130,7 +130,7 @@ ajaxRequestRetryCountで選択された回数だけ上記の操作を繰り返�
 
 ガジェット間の自動更新間隔。自動更新の1ターン内のガジェットの更新間隔を設定します。
 
-詳細については、ユーザーガイドの<a href="auto-update.md#updateDurationInTurn">1ターン内でのガジェットの更新間隔</a>を参照ください。
+詳細については、ユーザーガイドの<a href="../user-guide/auto-update.md#updateDurationInTurn">1ターン内でのガジェットの更新間隔</a>を参照ください。
 
     単位は秒で数値を指定します。
     デフォルト値：20(秒)
@@ -211,6 +211,7 @@ QueueWaitに設定した間隔で送信されます。
 
 この情報はランキングガジェットおよびアクセス統計などに利用されます。
 
+<a name="6_1_accessLogEntry"></a>
 ### 6.1 accessLogEntry
 
 お知らせやRSSリーダーなど、RSSを扱うガジェットのアクセスログを保存するか否かを指定します。

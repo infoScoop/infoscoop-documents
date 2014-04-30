@@ -120,7 +120,7 @@ Interval of automatic refresh of each gadget. Refer to User Guide / [Auto Update
 ### 3.4 widgetRefreshInterval
 
 Interval of automatic updates between gadgets. Update interval of gadget in one turn of automatic update is set.  
-Refer to User Guide / <a href="auto-update.md#updateDurationInTurn">The Updating Interval in One Turn</a> for the detail.
+Refer to User Guide / <a href="../user-guide/auto-update.md#updateDurationInTurn">The Updating Interval in One Turn</a> for the detail.
 
     The unit is specified as a numeric value in seconds.
     Default: 20 (seconds)
@@ -198,6 +198,7 @@ Customized information is also saved if the browser is closed or moved to anothe
 This product has a mechanism to store certain user actions to a repository database such as searching and clicking the link.  
 This information is used in Ranking gadget and access statistics.
 
+<a name="6_1_accessLogEntry"></a>
 ### 6.1 accessLogEntry
 
 Specify whether to store the access log of the gadgets dealing with RSS such as Information and RSS Reader gadget.

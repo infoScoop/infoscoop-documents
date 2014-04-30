@@ -74,10 +74,6 @@
     	<td nowrap>views</td>
         <td>ビューに関する処理を提供する機能です。</td>
     </tr>
-	<tr>
-    	<td nowrap></td>
-        <td></td>
-    </tr>
     <tbody>
 </table>
 

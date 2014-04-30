@@ -100,7 +100,7 @@ This page explains the controls and the operations of RSS Reader Gadget.
             <td>
                 <p>
                     When minimizing a Gadget, the icon turns into Restore icon.<br>
-                    <img src="images/widget/rss-reader-gadget-3.png" alt="Minimize of RSS Gadget">
+                    <img src="images/widget/rss-reader-gadget-3.png" alt="Minimize of RSS Gadget"><br>
                     When minimizing, the sun shaped icon is displayed and the number of new arrival items is displayed.
                 </p>
             </td>
@@ -417,7 +417,7 @@ You can operate RSS Reader Gadget from the keyboard below.
     </tr>
 	<tr>
         <td>T</td>
-        <td>Display/Hide the detail date time(similar to <img src="../../images/clock.png"/>)</td>
+        <td>Display/Hide the detail date time(similar to <img src="../../images/clock.gif"/>)</td>
     </tr>
 	<tr>
         <td>M</td>

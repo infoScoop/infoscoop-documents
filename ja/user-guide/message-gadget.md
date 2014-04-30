@@ -400,6 +400,6 @@
 [message_gadget_maximize_jp]: images/widget/message-gadget-5.jpg "最大化されたメッセージガジェット"
 [message_gadget_groupmodal_search_jp]: images/widget/message-gadget-7.jpg "グループ編集モーダル(ユーザー検索有り)"
 [message_gadget_nosearch]: images/widget/message-gadget-8.png "グループ編集モーダル(ユーザー検索無し)"
-[message_gadget_notice_jp]: images/widget/message-gadget-10.png "新着メッセージ通知"
+[message_gadget_notice_jp]: images/widget/message-gadget-10.jpg "新着メッセージ通知"
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Refresh icon]: ../../images/refresh.gif "更新アイコン"

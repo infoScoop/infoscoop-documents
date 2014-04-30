@@ -401,12 +401,12 @@ The gadget setting items are as follows.
     </tr>
 	<tr>
     	<td>Date format</td>
-        <td>Specify a format to show the date of RSS items.<br>Refer to <a href="#date-format">Date format can be used</a> for details.
+        <td>Specify a format to show the date of RSS items.<br>Refer to <a href="#date-format">7.2 Date Format can be used</a> for details.
 </td>
     </tr>
 	<tr>
     	<td>Use Access Stat</td>
-        <td>Specify whether an access stat icon is shown or not.<br>Specify whether an access stat icon is shown or not.<br>Access stat data is saved in the database regardless of this setting.Refer to <a href="properties-settings#6_1_accessLogEntry">accessLogEntry</a> for details.</td>
+        <td>Specify whether an access stat icon is shown or not.<br>Specify whether an access stat icon is shown or not.<br>Access stat data is saved in the database regardless of this setting. Refer to Properties Settings / <a href="properties-settings.md#6_1_accessLogEntry">6.1 accessLogEntry</a> for details.</td>
     </tr>
     </tbody>
 </table>
@@ -459,7 +459,7 @@ User setting items are as follows.
     	<td>Contents display mode</td>
         <td>Specify the target of RSS item link.<br>
         	<ul>
-            	<li><b>Auto detect</b>: <b>Frame in portal</b> or <b>New window</b> is applied according to displayInlinHost property settings. Refer to <a href="#displayInlineHost">Property displayInlineHost</a> for details.</li>
+            	<li><b>Auto detect</b>: <b>Frame in portal</b> or <b>New window</b> is applied according to displayInlinHost property settings. Refer to <a href="#displayInlineHost">7.1 Property displayInlineHost</a> for details.</li>
             	<li><b>Frame in portal</b>: Linked sites are displayed in the inner frame in portal.</li>
             	<li><b>New window</b>: Linked sites are displayed in another window.</li>
             </ul>
@@ -494,12 +494,12 @@ User setting items are as follows.
             	<li><b>postCredential</b>: Specify for posting the user ID and the password which are set in gadget when RSS is loaded.<br>A text box for specifying the parameter name of user id and password which are included in POST data is shown if postCredential is selected. The parameter name of user id becomes "is-user" and the parameter name of password becomes "is-passwd" if both parameter names are not specified.</li>
             	<li><b>postPortalCredential</b>: Specify for posting the user ID and the password of logged in user when RSS is loaded. A text box for specifying the parameter name of user id which is included in POST data is shown if postPortalCredential is selected. The parameter name of user id is "is-user" if the parameter name is not specified.</li>
             	<li><b>sendPortalCredentialHeader</b>: Specify for sending the header including the user id of the user logged in.<br>A text box for specifying the header name that sends user id is shown if sendPortalCredentialHeader is selected. The header name of user id is "is-user" if the header name is not specified.</li>
-            	<li><b>signed</b>: Specify for making a signed request to the destination web service.Signed request is making a request that has a signature with RSA certificate to the destination web service. The request during calling the service can be detected tampering at the destination web service by using signature.<br>Refer to <a href="oauth-administration">OAuth administration</a> for setting certificate.
+            	<li><b>signed</b>: Specify for making a signed request to the destination web service.Signed request is making a request that has a signature with RSA certificate to the destination web service. The request during calling the service can be detected tampering at the destination web service by using signature.<br>Refer to <a href="oauth-administration.md">OAuth administration</a> for setting certificate.
 
 The destination web service needs to support the signed request to use signed
 request.</li>
             </ul>
-			<b>Note:</b> Headers other than INNA registered header (RFCA4229) are not sent with normal proxy settings. Modification of proxy settings is also required to match with the header name specified. Refer to <a href="proxy-settings">Send HTTP Header settings</a> for details.<br><br>An authentication information register form is shown if a gadget is dropped
+			<b>Note:</b> Headers other than INNA registered header (RFCA4229) are not sent with normal proxy settings. Modification of proxy settings is also required to match with the header name specified. Refer to Proxy Settings / <a href="proxy-settings.md#5_http_headers_transmission_settings">5 HTTP Headers Transmission Settings</a> for details.<br><br>An authentication information register form is shown if a gadget is dropped
 with "basic", "ntlm", or "postCredential" specified.</td>
     </tr>
     </tbody>
@@ -533,11 +533,11 @@ The gadget setting items are as follows.
     </tr>
     <tr>
     	<td>Date format</td>
-        <td>Specify a format to show the date of RSS items.<br>Refer to <a href="#date-format">Date format can be used</a> for details.</td>
+        <td>Specify a format to show the date of RSS items.<br>Refer to <a href="#date-format">7.2 Date Format can be used</a> for details.</td>
     </tr>
    	<tr>
     	<td>Use Access Stat</td>
-        <td>Specify whether an access stat icon is shown or not.<br>Access stat data is saved in the database regardless of this setting. Refer to <a href="properties-settings#6_1_accessLogEntry">accessLogEntry</a> for details.</td>
+        <td>Specify whether an access stat icon is shown or not.<br>Access stat data is saved in the database regardless of this setting. Refer to Properties Settings / <a href="properties-settings.md#6_1_accessLogEntry">6.1 accessLogEntry</a> for details.</td>
     </tr>
     </tbody>
 </table>
@@ -582,7 +582,7 @@ The user setting items are as follows.
     	<td>Contents display mode</td>
         <td>Specify the target of RSS item link.<br>
         	<ul>
-            	<li><b>Auto detect</b>: Frame in portal or New window is applied according to displayInlinHost property settings. Refer to <a href="#displayInlineHost">Property displayInlineHost</a> for details.</li>
+            	<li><b>Auto detect</b>: Frame in portal or New window is applied according to displayInlinHost property settings. Refer to <a href="#displayInlineHost">7.1 Property displayInlineHost</a> for details.</li>
             	<li><b>Frame in portal</b>: Linked sites are displayed in the inner frame in portal.</li>
             	<li><b>New window</b>: Linked sites are displayed in another window.</li>
             </ul>
@@ -651,7 +651,7 @@ The user setting items are as follows.
     	<td>Header link display</td>
         <td>Specify the target of the links within the web page.<br>
         	<ul>
-            	<li><b>Auto detect</b>: Frame in portal or New window is applied according to displayInlinHost property settings. Refer to <a href="#displayInlineHost">Property displayInlineHost</a></li>
+            	<li><b>Auto detect</b>: Frame in portal or New window is applied according to displayInlinHost property settings. Refer to <a href="#displayInlineHost">7.1 Property displayInlineHost</a></li>
             	<li><b>Frame in portal</b>: Linked sites are displayed in the inner frame in portal.</li>
             	<li><b>New window</b>: Linked sites are displayed in another window.</li>
             </ul>
@@ -742,11 +742,10 @@ The user setting items are as follows.
             	<li><b>postCredential</b>: Specify for posting the user ID and the password which are set in a gadget when RSS is loaded.<br>A text box to specify the parameter name of user id and password which are included in POST data is shown if postCredential is selected. The parameter names of user id and password are "is-user" and "is-passwd" if parameter name is not specified.</li>
             	<li><b>postPortalCredential</b>: Specify for posting the user ID and the password of logged in user when RSS is loaded. A text box for specifying the parameter name of user id which is included in POST data is shown if postPortalCredential is selected. The parameter name of user id is "is-user" if the parameter name is not specified.</li>
             	<li><b>sendPortalCredentialHeader</b>: Specify for sending the header including the user id of the user logged in.<br>A text box for specifying the header name that sends user id is shown if sendPortalCredentialHeader is selected. The header name of user id is "is-user" if the header name is not specified.</li>
-            	<li><b>signed</b>: Specify for making a signed request to the destination web service. Signed request is making a request that has a signature with RSA certificate to the destination web service. The request during calling the service can be detected tampering at the destination web service by using signature.<br>Refer to <a href="oauth-administration">OAuth
+            	<li><b>signed</b>: Specify for making a signed request to the destination web service. Signed request is making a request that has a signature with RSA certificate to the destination web service. The request during calling the service can be detected tampering at the destination web service by using signature.<br>Refer to <a href="oauth-administration.md">OAuth
 Administration</a> for setting cetificate.<br>The destination web service needs to support the signed request to use signed request.</li>
             </ul>
-<b>Note:</b> Headers other than INNA registered header (RFCA4229) are not sent with normal proxy settings. Modification of proxy settings is also required to match with the header name specified. Refer to <a href="proxy-settings">Send HTTP Header
-settings</a> for details.<br><br>An authentication information register form is shown if a gadget is dropped with "basic", "ntlm", or "postCredential" specified.</td>
+<b>Note:</b> Headers other than INNA registered header (RFCA4229) are not sent with normal proxy settings. Modification of proxy settings is also required to match with the header name specified. Refer to Proxy Settings / <a href="proxy-settings.md#5_http_headers_transmission_settings">5 HTTP Headers Transmission Settings</a> for details.<br><br>An authentication information register form is shown if a gadget is dropped with "basic", "ntlm", or "postCredential" specified.</td>
     </tr>
 	<tr>
     	<td>Additional CSS</td>
@@ -859,11 +858,11 @@ The gadget setting items are as follows.
     </tr>
 	<tr>
     	<td>Date format</td>
-        <td>Specify a format to show the date of RSS items.<br>Refer to <a href="#date-format">Date format can be used</a> for details.</td>
+        <td>Specify a format to show the date of RSS items.<br>Refer to <a href="#date-format">7.2 Date Format can be used</a> for details.</td>
     </tr>
 	<tr>
     	<td>Use Access Stat</td>
-        <td>Specify whether an access stat icon is shown or not.<br>Access stat data is saved in the database regardless of this setting. Refer to <a href="properties-settings#6_1_accessLogEntry">accessLogEntry</a> for details.</td>
+        <td>Specify whether an access stat icon is shown or not.<br>Access stat data is saved in the database regardless of this setting. Refer to Properties Settings / <a href="properties-settings.md#6_1_accessLogEntry">6.1 accessLogEntry</a> for details.</td>
     </tr>
     </tbody>
 </table>
@@ -894,7 +893,7 @@ information</b> button.</td>
             	<li><b>postPortalCredential</b>: Specify for posting the user ID and the password of logged in user when RSS is loaded. A text box for specifying the parameter name of user id which is included in POST data is shown if postPortalCredential is selected. The parameter name of user id is "is-user" if the parameter name is not specified.</li>
             	<li><b>sendPortalCredentialHeader</b>: Specify for sending the header including the user id of the user logged in.<br>A text box for specifying the header name that sends user id is shown if sendPortalCredentialHeader is selected. The header name of user id is "is-user" if the header name is not specified.</li>
             </ul>
-<b>Note:</b> Headers other than INNA registered header (RFCA4229) are not sent with normal proxy settings. Modification of proxy settings is also required to match with the header name specified. Refer to <a href="../proxy-settings">Send HTTP Header settings</a> for details.<br><br>An authentication information register form is shown if a gadget is dropped with "basic", "ntlm", or "postCredential" specified.</td>
+<b>Note:</b> Headers other than INNA registered header (RFCA4229) are not sent with normal proxy settings. Modification of proxy settings is also required to match with the header name specified. Refer to Proxy Settings / <a href="proxy-settings.md#5_http_headers_transmission_settings">5 HTTP Headers Transmission Settings</a> for details.<br><br>An authentication information register form is shown if a gadget is dropped with "basic", "ntlm", or "postCredential" specified.</td>
     </tr>
     </tbody>
 </table>
@@ -1216,14 +1215,16 @@ The user setting items are as follows.
 
 ## 7 Supplements
 
-### <a name="displayInlineHost"> 7.1 Property displayInlineHost
+<a name="displayInlineHost"></a>
+### 7.1 Property displayInlineHost
 
 This is the property to configure the operation when `Auto detect` is specified in content display mode.  
 In content display mode, `Frame in portal` is applied if the URL of the link includes one of the host names from "displayInlineHost" property, otherwise `New window` is applied.  
 For example, specify `aaa` and `bbb` to displayInlineHost to show the website whose host name is `aaa` or `bbb` in Frame in portal even if overall setting is `New window`.  
 In this case, the web page like `http://aaa/hoge.html` is shown in Frame in portal, and the web page like `http://ccc/foo.html` is shown in a new window.
 
-### <a name="date-format"> 7.2 Date Format can be used
+<a name="date-format"></a>
+### 7.2 Date Format can be used
 
 The date format that can be used for each gadgets is the date format of SimpleDateFormat class of Java SE 6.  
 The following pattern letters are defined (all other characters from 'A' to 'Z' and from 'a' to 'z' are reserved).

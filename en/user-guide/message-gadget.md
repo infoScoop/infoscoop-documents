@@ -278,6 +278,6 @@ When clicking the notice, `You have a new message`, Message Gadget is maximized.
 [message_gadget_maximize_jp]: images/widget/message-gadget-5.jpg
 [message_gadget_groupmodal_jp]: images/widget/message-gadget-7.jpg
 [message_gadget_nosearch]: images/widget/message-gadget-8.png
-[message_gadget_notice_jp]: images/widget/message-gadget-10.png
+[message_gadget_notice_jp]: images/widget/message-gadget-10.jpg
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Refresh icon]: ../../images/refresh.gif

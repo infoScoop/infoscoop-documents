@@ -128,18 +128,19 @@ Ajaxプロキシは、受信したリクエストのURLを別のURLに置換す�
     </thead>
     <tbody>
 	<tr>
-    	<td>^http://hostA/(.*)</td>
-        <td>http://172.22.115.234/$1</td>
+    	<td><code>^http://hostA/(.*)</code></td>
+        <td><code>http://172.22.115.234/$1</code></td>
     </tr>
     </tbody>
 </table>
 
 上記のように、アドレスパターンに入力したURLに対応する置換URLを指定します。  
 置換URLのセルもクリックすると編集モードになります。  
-アドレスパターン内の「()」にマッチした文字列は置換URLで使用することができます。上記表の設定の場合「http://hostA/rss.xml」は「http://172.22.115.234/rss.xml」に置換されAjaxプロキシからリクエストが送信されます。
+アドレスパターン内の`()`にマッチした文字列は置換URLで使用することができます。上記表の設定の場合`http://hostA/rss.xml`は`http://172.22.115.234/rss.xml`に置換されAjaxプロキシからリクエストが送信されます。
 
 ![Substitution of the Request URL]
 
+<a name="5_http_headers_transmission_settings"></a>
 ## 5 HTTPヘッダ送信設定
 
 Ajaxプロキシは、ブラウザから受け付けたリクエストに含まれるHTTPヘッダを、対象のURLに対するリクエストに全て含めるか、指定したHTTPヘッダのみ含めるかを設定することができます。  

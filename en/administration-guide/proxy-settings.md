@@ -92,12 +92,12 @@ This section explains the administration controls on the right-top of the page.
     </thead>
     <tbody>
 	<tr>
-    	<td><img src="images/refresh.gif"/></td>
+    	<td><img src="../../images/refresh.gif"/></td>
     	<td>Refresh</td>
         <td>The last state is displayed.</td>
     </tr>
 	<tr>
-    	<td><img src="images/apply_changes.gif"/></td>
+    	<td><img src="../../images/apply_changes.gif"/></td>
     	<td>Apply changes</td>
         <td>Apply the changes. (save the data)</td>
     </tr>
@@ -136,8 +136,8 @@ Ajax proxy has the function to substitute to another URL from the URL of incomin
     </thead>
     <tbody>
 	<tr>
-    	<td>^http://hostA/(.*)</td>
-        <td>http://172.22.115.234/$1</td>
+    	<td><code>^http://hostA/(.*)</code></td>
+        <td><code>http://172.22.115.234/$1</code></td>
     </tr>
     </tbody>
 </table>
@@ -150,6 +150,7 @@ For the above table setting, `http://hostA/rss.xml` replaces
 
 ![Substitution of the Request URL]
 
+<a name="5_http_headers_transmission_settings"></a>
 ## 5 HTTP Headers Transmission Settings
 
 You can choose the following two options of the HTTP headers contain in the received request from the web browser to Ajax proxy.

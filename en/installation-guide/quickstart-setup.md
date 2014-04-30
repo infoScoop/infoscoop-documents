@@ -3,8 +3,7 @@
 This section explains how to setup QuickStart.  
 Unzip `infoscoop-x.x.x-quickstart.zip(tar.gz)` and execute the following steps. (x is version number.)
 
-**Note:**  
-Installation of MySQL 5.1and JDK 5.0 or higher is necessary in advance.
+**Note:**　Installation of MySQL 5.1and JDK 5.0 or higher is necessary in advance.
 
 ## 1 Create Repository Database
 
@@ -75,8 +74,8 @@ Edit the following file.
     infoscoop-x.x.x-quickstart/initdb/data/accounts/import.csv
 
 Add new users with the following format.
-    
-> \<USER_ID>,\<USER_NAME>,\<PASSWORD>
+
+    <USER_ID>,<USER_NAME>,<PASSWORD>
 
 ### 2 Execute addaccount.bat(sh)
 

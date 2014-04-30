@@ -44,11 +44,11 @@ At the RSS display settings, the common settings for the Gadget that reads RSS(t
 The settings are reflected, and the Global Settings screen is closed if **Apply change** button is clicked.  
 **Note:** Waiting time to reflect the change may vary depends on the item changed.
 
-## Initialization of customized information**
+## Initialization of customized information
 
 You can initialize cutomized information if **Initialization of customized information** button is clicked.
 
-**Please note that the gadgets on personalized area, added tabs and Global settings(General settings) are removed completely.**
+**Note:** The gadgets on personalized area, added tabs and Global settings(General settings) are removed completely.
 
 The all removed gadgets are moved to Trash Bin.
 

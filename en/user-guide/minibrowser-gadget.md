@@ -92,5 +92,6 @@ The height can be adjusted by drag-and-drop operation.
 
 [Register an Optional Web Site]: registering-an-optional-web-site.md
 [MiniBrowser Gadget]: images/widget/minibrowser-gadget-1.png
+[Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Description of the Menu]: images/widget/minibrowser-gadget-2.png
 [Adjust the height]: images/widget/minibrowser-gadget-4.png

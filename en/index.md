@@ -1,16 +1,16 @@
 # Document 3.1.0
 
-* [Installation Guide]
+* [Installation Guide]  
 This document explains how to setup infoScoop OpenSource by default
 settings.
 
-* [User Guide]
+* [User Guide]  
 This user manual explains how to use infoScoop OpenSource.
 
-* [Administration Guide]
+* [Administration Guide]  
 Administration Guide explains how to configure portal site using infoScoop OpenSource and various system settings of infoScoop OpenSource.
 
-* [Technical Specifications]
+* [Technical Specifications]  
 Technical Specifications explains gadget spec. for infoScoop OpenSource.
 
 

@@ -418,14 +418,14 @@ __iCalendar設定例__
             <td>日付表示形式</td>
             <td>
                 RSSアイテムの日付表示用のフォーマットを指定します。<br>
-                設定可能なフォーマットについては「7.2 使用できる日付フォーマット」を参照してください。
+                設定可能なフォーマットについては、<a href="#date-format">7.2 使用できる日付フォーマット</a>を参照してください。
             </td>
         </tr>
         <tr>
             <td>アクセス履歴を利用する</td>
             <td>
                 アクセス履歴アイコンを表示するかどうかを指定します。<br>
-                本設定の有効/無効に関わらずアクセス履歴用のログはデータベースに保存されます。(参照：<a href="properties-settings.md" title="プロパティ管理">プロパティ管理</a>「accessLogEntry」)
+                本設定の有効/無効に関わらずアクセス履歴用のログはデータベースに保存されます。（参照：プロパティ管理／<a href="properties-settings.md#6_1_accessLogEntry" title="プロパティ管理／6.1 accessLogEntry">6.1 accessLogEntry</a>）
             </td>
         </tr>
     </tbody>
@@ -491,7 +491,7 @@ __iCalendar設定例__
             <td>
                 RSSアイテムのリンクに付けられる表示先。
                 <ul>
-                    <li>自動判別: プロパティdisplayInlineHostの設定に従いポータル内フレームまたは新しいウィンドウが適用されます。(参照: 「7.1 プロパティ displayInlineHost」)</li>
+                    <li>自動判別: プロパティdisplayInlineHostの設定に従いポータル内フレームまたは新しいウィンドウが適用されます。(参照: <a href="#displayInlineHost">7.1 プロパティ displayInlineHost</a>)</li>
                     <li>ポータル内フレーム：ポータル内インナーフレームにリンク先を表示します。</li>
                     <li>新しいウィンドウ: リンク先を別ウィンドウで表示します。</li>
                 </ul>
@@ -550,11 +550,11 @@ __iCalendar設定例__
                     </li>
                     <li>
                         signed: 呼び出し先のWebサービスに対し、署名付きリクエストを行います。署名付きリクエストとは、呼び出し先のWebサービスに対し、RSA証明書による署名を付けてリクエストを行うことです。呼び出し先のWebサービスでは、署名を使うことで、呼び出しの際のリクエストが改ざんされていないこと等を検証することができます。<br>
-                        証明書の設定方法については、<a href="oauth-administration" title="OAuth管理">OAuth管理</a>を参照してください。<br>
+                        証明書の設定方法については、<a href="oauth-administration.md" title="OAuth管理">OAuth管理</a>を参照してください。<br>
                         署名付きリクエストに対応するためには、呼び出し先Webサービスでの対応が必要となります。
                     </li>
                 </ul>
-                <strong>注意</strong> 通常のプロキシ設定では、INNA登録済みヘッダ(RFC4229)ではないヘッダは送信されません。指定したヘッダ名に合わせてプロキシ設定も変更する必要があります。詳しくは<a href="proxy-settings.md" title="プロキシ管理">プロキシ管理</a>「5 HTTPヘッダ送信設定」を参照してください。<br>
+                <strong>注意</strong> 通常のプロキシ設定では、INNA登録済みヘッダ(RFC4229)ではないヘッダは送信されません。指定したヘッダ名に合わせてプロキシ設定も変更する必要があります。詳しくはプロキシ管理／<a href="proxy-settings.md#5_http_headers_transmission_settings" title="プロキシ管理／5 HTTPヘッダ送信設定">5 HTTPヘッダ送信設定</a>を参照してください。<br>
                 Basic、ntlmまたはpostCredentialを指定した場合は、ガジェットをドロップした際、認証情報登録フォームが表示されます。
             </td>
         </tr>
@@ -593,14 +593,14 @@ __iCalendar設定例__
             <td>日付表示形式</td>
             <td>
                 RSSアイテムの日付表示用のフォーマットを指定します。<br>
-                設定可能なフォーマットについては「7.2 使用できる日付フォーマット」を参照してください。
+                設定可能なフォーマットについては、<a href="#date-format">7.2 使用できる日付フォーマット</a>を参照してください。
             </td>
         </tr>
         <tr>
             <td>アクセス履歴を利用する</td>
             <td>
                 アクセス履歴アイコンを表示するかどうかを指定します。<br>
-                本設定の有効/無効に関わらずアクセス履歴用のログはデータベースに保存されます(参照: 「<a href="properties-settings.md" title="プロパティ管理">プロパティ管理</a>/6.1 accessLogEntry」)。
+                本設定の有効/無効に関わらずアクセス履歴用のログはデータベースに保存されます(参照：プロパティ管理／<a href="properties-settings.md#6_1_accessLogEntry" title="プロパティ管理／6.1 accessLogEntry">6.1 accessLogEntry</a>)。
             </td>
         </tr>
     </tbody>
@@ -652,7 +652,7 @@ __iCalendar設定例__
             <td>
                 RSSアイテムのリンクに付けられる表示先。
                 <ul>
-                    <li>自動判別: プロパティdisplayInlineHostの設定に従いポータル内フレームまたは新しいウィンドウが適用されます。(参照: 「7.1 プロパティ displayInlineHost」)</li>
+                    <li>自動判別: プロパティdisplayInlineHostの設定に従いポータル内フレームまたは新しいウィンドウが適用されます。(参照: <a href="#displayInlineHost">7.1 プロパティ displayInlineHost</a>)</li>
                     <li>ポータル内フレーム: ポータル内インナーフレームにリンク先を表示</li>
                     <li>新しいウィンドウ: リンク先を別ウィンドウで表示</li>
                 </ul>
@@ -740,7 +740,7 @@ __iCalendar設定例__
             <td>
                 ページ内のリンクに付けられる表示先。
                 <ul>
-                    <li>自動判別: プロパティdisplayInlineHostの設定に従いポータル内フレームまたは新しいウィンドウが適用されます。(参照: 「7.1 プロパティ displayInlineHost」)</li>
+                    <li>自動判別: プロパティdisplayInlineHostの設定に従いポータル内フレームまたは新しいウィンドウが適用されます。(参照: <a href="#displayInlineHost">7.1 プロパティ displayInlineHost</a>)</li>
                     <li>ポータル内フレーム: ポータル内インナーフレームにリンク先を表示</li>
                     <li>新しいウィンドウ: リンク先を別ウィンドウで表示</li>
                 </ul>
@@ -871,7 +871,7 @@ __iCalendar設定例__
                         署名付きリクエストに対応するためには、呼び出し先Webサービスでの対応が必要となります。
                     </li>
                 </ul>
-                <strong>注意</strong> 通常のプロキシ設定では、INNA登録済みヘッダ(RFC4229)ではないヘッダは送信されません。指定したヘッダ名に合わせてプロキシ設定も変更する必要があります。詳しくは<a href="proxy-settings.md" title="プロキシ管理">プロキシ管理</a>「5 HTTPヘッダ送信設定」を参照してください。<br>
+                <strong>注意</strong> 通常のプロキシ設定では、INNA登録済みヘッダ(RFC4229)ではないヘッダは送信されません。指定したヘッダ名に合わせてプロキシ設定も変更する必要があります。詳しくはプロキシ管理／<a href="proxy-settings.md#5_http_headers_transmission_settings">5 HTTPヘッダ送信設定</a>を参照してください。<br>
                 Basic、ntlmまたはpostCredentialを指定した場合は、ガジェットをドロップした際、認証情報登録フォームが表示されます。
             </td>
         </tr>
@@ -1001,14 +1001,14 @@ __iCalendar設定例__
             <td>日付表示形式</td>
             <td>
                 RSSアイテムの日付表示用のフォーマットを指定します。<br>
-                設定可能なフォーマットについては「7.2 使用できる日付フォーマット」を参照してください。
+                設定可能なフォーマットについては、<a href="#date-format">7.2 使用できる日付フォーマット</a>を参照してください。
             </td>
         </tr>
         <tr>
             <td>アクセス履歴を利用する</td>
             <td>
                 アクセス履歴アイコンを表示するかどうかを指定します。<br>
-                本設定の有効/無効に関わらずアクセス履歴用のログはデータベースに保存されます(参照：<a href="properties-settings.md" title="プロパティ管理">プロパティ管理</a>「6.1 accessLogEntry」)。
+                本設定の有効/無効に関わらずアクセス履歴用のログはデータベースに保存されます（参照：プロパティ管理／<a href="properties-settings.md#6_1_accessLogEntry" title="プロパティ管理／6.1 accessLogEntry">6.1 accessLogEntry</a>）。
             </td>
         </tr>
     </tbody>
@@ -1052,7 +1052,7 @@ __iCalendar設定例__
                         sendPortalCredentailHeaderを選択すると、ユーザーIDを送信するヘッダ名を指定するテキストボックスが表示されます。パラメータ名を指定しない場合に、送信されるユーザーIDのヘッダ名は「is-user」です。
                     </li>
                 </ul>
-                <strong>注意</strong> 通常のプロキシ設定では、INNA登録済みヘッダ(RFC4229)ではないヘッダは送信されません。指定したヘッダ名に合わせてプロキシ設定も変更する必要があります。詳しくは<a href="proxy-settings" title="プロキシ管理">プロキシ管理</a>「5 HTTPヘッダ送信設定」を参照してください。<br>
+                <strong>注意</strong> 通常のプロキシ設定では、INNA登録済みヘッダ(RFC4229)ではないヘッダは送信されません。指定したヘッダ名に合わせてプロキシ設定も変更する必要があります。詳しくはプロキシ管理／<a href="proxy-settings.md#5_http_headers_transmission_settings" title="プロキシ管理／5 HTTPヘッダ送信設定">5 HTTPヘッダ送信設定</a>を参照してください。<br>
                 Basic、ntlmまたはpostCredentialを指定した場合は、ガジェットをドロップした際、認証情報登録フォームが表示されます。
             </td>
         </tr>
@@ -1394,7 +1394,7 @@ __iCalendar設定例__
 
 ## 7 補足
 
-
+<a name="displayInlineHost"></a>
 ### 7.1 プロパティ displayInlineHost
 
 コンテンツ表示モードで「自動選択」が適用された場合の動作について設定するプロパティです。
@@ -1405,7 +1405,7 @@ __iCalendar設定例__
 
 このように設定すると、リンクのURLが「http://aaa/hoge.html」のような場合には、ポータル内フレームにリンク先が表示され、URLが「http://ccc/foo.html」の場合は、新しいウィンドウを起動しリンク先が表示されます。
 
-
+<a name="date-format"></a>
 ### 7.2 使用できる日付フォーマット
 
 各ガジェットのガジェット設定の日付表示形式に使用可能な日付フォーマットは、Java SE 6のSimpleDateFormatクラスで使用可能な日付フォーマットになります。

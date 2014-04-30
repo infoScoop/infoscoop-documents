@@ -66,7 +66,20 @@ The following items can be set up for each search engine site.
     </tr>
 	<tr>
     	<td nowrap>Search adress</td>
-        <td>It is URL which performs a search to a search engine site. If substitution character string ${KEYWORD} is written in an address, it is replaced by a keyword at the time of search execution.<br>e.g. Description of Search address which uses a substitution character string<br>(Search address) http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=${KEYWORD}&amp;key2=${KEYWORD}<br>(When execute a search)<br>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=keyword&amp;key2=keyword<br>The keyword is is given to the end of the URL if a substitution character string is not described in the address<br>e.g. Description of Search address which does not use a substitution character string<br>(Search address)<br>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=<br>(When execute a search)<br>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=keyword<br>A maximum of 512 characters can be typed.</td>
+        <td>
+            It is URL which performs a search to a search engine site. If substitution character string ${KEYWORD} is written in an address, it is replaced by a keyword at the time of search execution.<br>
+            e.g. Description of Search address which uses a substitution character string<br>
+            (Search address) <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=${KEYWORD}&amp;key2=${KEYWORD}</code><br>
+            (When execute a search)<br>
+            <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=keyword&amp;key2=keyword</code><br>
+            The keyword is is given to the end of the URL if a substitution character string is not described in the address<br>
+            e.g. Description of Search address which does not use a substitution character string<br>
+            (Search address)<br>
+            <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=</code><br>
+            (When execute a search)<br>
+            <code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=keyword</code><br>
+            A maximum of 512 characters can be typed.
+        </td>
     </tr>
 	<tr>
     	<td>Encoding</td>
@@ -112,7 +125,7 @@ Items can be set for In-site search are as follows.
     </tr>
 	<tr>
     	<td>Search Address</td>
-        <td>It is URL which performs a search to a search engine site. The search is executed with the keyword added at the end of the URL.<br>e.g. BeaconIT Home<br>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=<br> The n-th group that matches forward reference "$n" can be referred for the search address specified in In-site search.<br>In addition, the RSS that matches the specified pattern is not searched and
+        <td>It is URL which performs a search to a search engine site. The search is executed with the keyword added at the end of the URL.<br>e.g. BeaconIT Home<br><code>http://www.beacon-it.co.jp/cgi-bin/search.cgi?key=</code><br> The n-th group that matches forward reference "$n" can be referred for the search address specified in In-site search.<br>In addition, the RSS that matches the specified pattern is not searched and
 the icon for In-site search located at the header of RSS reader and Multi-RSS reader is hidden if an empty string is specified.<br>Address searches are available up to 512 characters.</td>
     </tr>
 	<tr>

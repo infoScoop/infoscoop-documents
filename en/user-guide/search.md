@@ -20,7 +20,7 @@ If you click __Search options__, you can choose search site and display search r
 
 ![Selection of the search sites]
 
-Choose search site and search results display target, Click __Save settings__ button to save settings for each user.
+Choose search site and search results display target, Click [**Save settings**] button to save settings for each user.
 
 Since then, search as search settings.
 

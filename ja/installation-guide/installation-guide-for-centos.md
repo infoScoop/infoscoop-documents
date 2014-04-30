@@ -68,9 +68,9 @@ default-character-set=utf8
 
 ## 3 JDKのインストール
 
-SUN Java SE ダウンロードサイト(http://java.sun.com/javase/ja/6/download.html)より、Java SE Development Kit(JDK)のRPM(jdk-6uxx-linux-i586-rpm.bin)をダウンロードします。
+SUN Java SE ダウンロードサイト`http://java.sun.com/javase/ja/6/download.html`より、Java SE Development Kit(JDK)のRPM`jdk-6uxx-linux-i586-rpm.bin`をダウンロードします。
 
-**注意** xxはパッチバージョンに置き換えて読み進めてください。2010年12月27日現在では最新は23ですので、ダウンロードファイルの名前はjdk-6u23-linux-i586-rpm.binです。
+**注意** `xx`はパッチバージョンに置き換えて読み進めてください。2010年12月27日現在では最新は23ですので、ダウンロードファイルの名前は`jdk-6u23-linux-i586-rpm.bin`です。
 
 ダウンロードしたファイルをホームディレクトリに移動して、以下のコマンドを実行します。
 

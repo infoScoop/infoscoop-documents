@@ -2,7 +2,7 @@
 
 クイックスタートのセットアップ方法について説明します。
 
-infoscoop-x.x.x-quickstart.zip(tar.gz)を解凍し以下の手順を実行して下さい。(xにはバージョン番号が入ります。)
+`infoscoop-x.x.x-quickstart.zip(tar.gz)`を解凍し以下の手順を実行して下さい。(xにはバージョン番号が入ります。)
 
 **注意** 事前にMySQL 5.1およびJDK 5.0以上をインストールして下さい。
 
@@ -27,59 +27,51 @@ $ cd infoscoop-x.x.x-quickstart
 $ mysql -uroot -p --default-character-set=utf8 iscoop < init_infoscoop.ja.sql
 ```
 
-init_infoscoop.sql を選択した場合はメニュー等のサンプル設定が英語になります。
+`init_infoscoop.sql`を選択した場合はメニュー等のサンプル設定が英語になります。
 
 
 ## 3 データベース接続設定
 
-クイックスタートはデフォルト設定では、MySQLが同じサーバー、デフォルトポート3306、データベースへの接続ユーザーIDが"root"、パスワードは無しになっています。  
+クイックスタートはデフォルト設定では、MySQLが同じサーバー、デフォルトポート`3306`、データベースへの接続ユーザーIDが`root`、パスワードは無しになっています。  
 これ以外の場合は、データベース設定を変更する必要があります。  
 設定を変更する場合は、以下のファイルを編集します。
 
-```
-apache-tomcat-6.0.28/conf/Catalina/localhost/infoscoop.xml
-```
+    apache-tomcat-6.0.28/conf/Catalina/localhost/infoscoop.xml
 
 以下の属性を適切な値に変更してください。
 
-* username: データベース接続ユーザーID
-* password: データベース接続パスワード
-* url: データベース接続URL。別サーバーのMySQLに接続する場合はlocalhostを適切なホスト名に、デフォルトポートを使用していない場合は3306を適切な値に変更します。
+* username：データベース接続ユーザーID
+* password：データベース接続パスワード
+* url：データベース接続URL。別サーバーのMySQLに接続する場合は`localhost`を適切なホスト名に、デフォルトポートを使用していない場合は`3306`を適切な値に変更します。
 
 
 ## 4 infoScoop OpenSourceサーバーの起動
 
 以下のコマンドを実行してください。
 
-```
-$ startup.bat(sh)
-```
+    $ startup.bat(sh)
 
 以上で、infoScoop OpenSourceクイックスタートのセットアップは終了です。
 
 停止は以下のコマンドを実行します。
 
-```
-$ shutdown.bat(sh)
-```
+    $ shutdown.bat(sh)
 
 
 ## 5 infoScoop OpenSourceの起動
 
 ブラウザを起動し以下のアドレスを表示してください。
 
-```
-http://<ホスト名>:8080/infoscoop/
-```
+    http://<ホスト名>:8080/infoscoop/
 
-ログイン画面が表示されます。admin/adminでログインします。
+ログイン画面が表示されます。パスワード`admin`を使用してadminユーザーでログインします。
 
 以下の通りテストユーザーアカウントを初期状態でご用意しています。
 
-* test_user1 ~ test_user3: 管理者アカウント
-* test_user4 ~ test_user10: 一般ユーザーアカウント
+* test_user1～test_user3：管理者アカウント
+* test_user4～test_user10：一般ユーザーアカウント
 
-パスワードはいずれのアカウントも「password」となっています。
+パスワードはいずれのアカウントも`password`となっています。
 
 
 ## ユーザーの追加方法
@@ -91,20 +83,20 @@ http://<ホスト名>:8080/infoscoop/
 
 以下のファイルを編集します。
 
-```
-infoscoop-x.x.x-quickstart/initdb/data/accounts/import.csv
-```
 
-`<ユーザーID>,<ユーザー名>,<パスワード>` の形式でユーザーを追加します。
+    infoscoop-x.x.x-quickstart/initdb/data/accounts/import.csv
+
+
+以下の形式でユーザーを追加します。
+
+    <ユーザーID>,<ユーザー名>,<パスワード>
 
 
 ### 2 addaccount.bat(sh)の実行
 
-initdb ディレクトリに移動し、addaccount.bat(sh)を実行します。
+`initdb`ディレクトリに移動し、`addaccount.bat(sh)`を実行します。
 
-```
-$ cd infoscoop-x.x.x-quickstart/initdb
-$ addaccount.bat(sh)
-```
+    $ cd infoscoop-x.x.x-quickstart/initdb
+    $ addaccount.bat(sh)
 
 

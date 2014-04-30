@@ -39,7 +39,7 @@ OAuth version (1.0 only)
 **oauth_signature**  
 Signature to verify the request adequacy
 
-Please refer to [OAuth Administration] / "3.2 Container's certificate" for a setup of a RSA certificate.
+Please refer to Administration Guide / <a href="../administration-guide/oauth-administration.md#container_cert">3.2 Container's certificate</a> for a setup of a RSA certificate.
 
 
 [OAuth Consumer Request 1.0 Draft 1]: http://oauth.googlecode.com/svn/spec/ext/consumer_request/1.0/drafts/1/spec.html

@@ -433,7 +433,7 @@ RSSリーダーは以下のようなキーにより、キーボードから操�
     </tr>
 	<tr>
         <td>T</td>
-        <td>詳細日時表示/非表示(<img src="../../images/clock.png"/>と同様)</td>
+        <td>詳細日時表示/非表示(<img src="../../images/clock.gif"/>と同様)</td>
     </tr>
 	<tr>
         <td>M</td>
