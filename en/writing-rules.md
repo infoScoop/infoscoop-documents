@@ -1,2 +1,2 @@
 This document may contain untranslated or unedited parts.  
-[Your cooperation](../README) would be greatly appreciated!
+[Your cooperation](../README.md) would be greatly appreciated!
