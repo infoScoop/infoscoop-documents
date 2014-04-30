@@ -5,12 +5,12 @@ infoScoop OpenSourceのサーバーモジュールは、J2EE Webアプリケー�
 ここでは、ダウンロードしたアーカイブに含まれるinfoscoop.warをWebアプリケーションサーバーにデプロイする前に、環境に合わせた設定を含むWebアプリケーションモジュールとして再作成する手順について説明します。
 
 
-## 1. WARファイル再作成ユーティリティ
+## 1 WARファイル再作成ユーティリティ
 
 infoScoop OpenSourceは、Webアプリケーションサーバーにデプロイする前の準備として、接続先データベースの設定や、アプリケーションログの設定等、システムの初期設定を行ったデプロイ(配置)用のWARファイルを作成するためのユーティリティを用意しています。
 
 アーカイブを解凍したディレクトリの/infoscoopに、ユーティリティremakewar.bat(sh)が含まれています。  
-remakewar.bat(sh)は実行にApache Antが必要になります。Apache Antが作業環境に未導入の場合は事前にApache Antをインストールしてください。Apache Antのインストールに関しては[Apache Ant Document]をご参照ください。
+remakewar.bat(sh)は実行にApache Antが必要になります。Apache Antが作業環境に未導入の場合は事前にApache Antをインストールしてください。Apache Antのインストールに関しては[Apache Antのドキュメント][Apache Ant Document]をご参照ください。
 
 **注意** ユーティリティ設定ファイル(build.propertiesおよびprincipalHeaderList.json)の各設定値には以下の制限があります。
 
