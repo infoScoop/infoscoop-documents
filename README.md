@@ -1,13 +1,5 @@
 # infoScoop Documents
-
 infoscoop-documents is a documentation project for [infoScoop][infoscoop-github-project]. For more information, please visit [infoScoop OpenSource][infoscoop-oss-website] website.
-
-/## Contributing
-/This documentation will be improved by your help. Anyone can contribute with a pull request. If you find any better way or untranslated parts, please submit your proposal as pull request. Your cooperation would be greatly appreciated!
-/```
-/$ git clone https://github.com/infoScoop/infoscoop-documents.git
-/$ cd infoscoop-documents/
-```
 
 ## Writing Rules
 Please follow the writing rules below when you work on changing the documents.
