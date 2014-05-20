@@ -32,48 +32,51 @@ This section explains the context menu of the Menu administration page.
 
 <table>
     <thead>
-	<tr>
-    	<th><img src="../../images/open_all.gif"/></th>
-        <th>Open all</th>
-        <th>Displays all the menus.</th>
-    </tr>
+        <tr>
+            <th>Icon</th><th>Name</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/close_all.gif"/></td>
-        <td>Close all</td>
-        <td>Close all menus.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/add_menu_tree.gif"/></td>
-        <td>Do menu tree addition/order change.</td>
-        <td>If you click this icon, you can change the order of the top menu. Also, you can add new menu tree.<br>Only administrator that have "Menu" authority can use this icon.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/add_menu_tree.gif"/></td>
-        <td>Add menu tree</td>
-        <td>A new menu tree is added.<br>A dialog for Menu settings is displayed by clicking this.<br>This icon is only available if the tree in add mode or move mode.<br>About for each settings, refer to <a href="#menu_item_add_change">7 Adding and Changing Menu Items</a>.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>Refresh</td>
-        <td>The last state is displayed.<br>The expanded menu is closed, and the menu tree is only displayed.</td>
-    </tr>
-    <tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>All lock release</td>
-        <td>All the root menus and the lock to change the order are released, and the last applied state is shown.<br>The expanded menu is closed and the menu tree is displayed.<br>This icon is only available to the tree in edit mode.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-        <td>Apply changes</td>
-        <td>All previous operations (add, edit, remove, and move) are applied by clicking this. (Data is saved.)<br>This icon is only available to the tree in edit mode.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/preview.gif"/></td>
-        <td>Preview Top page</td>
-        <td>The present composition information is displayed in another window.<br>Only administrator that have "Menu" authority can use this icon.</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/open_all.gif"/></td>
+            <td>Open all</td>
+            <td>Displays all the menus.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/close_all.gif"/></td>
+            <td>Close all</td>
+            <td>Close all menus.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/add_menu_tree.gif"/></td>
+            <td>Do menu tree addition/order change.</td>
+            <td>If you click this icon, you can change the order of the top menu. Also, you can add new menu tree.<br>Only administrator that have "Menu" authority can use this icon.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/add_menu_tree.gif"/></td>
+            <td>Add menu tree</td>
+            <td>A new menu tree is added.<br>A dialog for Menu settings is displayed by clicking this.<br>This icon is only available if the tree in add mode or move mode.<br>About for each settings, refer to <a href="#menu_item_add_change">7 Adding and Changing Menu Items</a>.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>The last state is displayed.<br>The expanded menu is closed, and the menu tree is only displayed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>All lock release</td>
+            <td>All the root menus and the lock to change the order are released, and the last applied state is shown.<br>The expanded menu is closed and the menu tree is displayed.<br>This icon is only available to the tree in edit mode.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>All previous operations (add, edit, remove, and move) are applied by clicking this. (Data is saved.)<br>This icon is only available to the tree in edit mode.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/preview.gif"/></td>
+            <td>Preview Top page</td>
+            <td>The present composition information is displayed in another window.<br>Only administrator that have "Menu" authority can use this icon.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -177,36 +180,35 @@ The following are the details about Menu Link setting.
 
 <table>
     <thead>
-	<tr>
-    	<th nowrap>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th nowrap>Setting items</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Title</td>
-        <td>The title of the menu. Required.<br>The title can be entered up to 80 characters.</td>
-    </tr>
-	<tr>
-    	<td>Title link</td>
-        <td>Link URL of the menu title.<br>The URL can be entered up to 1024 bytes.</td>
-    </tr>
-	<tr>
-    	<td>Display link settings</td>
-        <td>Set the title link appears.<br>[auto detect]: Applies the frame in portal or new window according to displayInlinHost property settings. Refer to <i>displayInlineHost</i>.<br>[Frame in portal]: Displays a linked sites in the inner frame in portal.<br>[New window]: Displays a linked sites in another window.</td>
-    </tr>
-	<tr>
-    	<td>No links on menu</td>
-        <td>Valid only if the gadget settings.<br>The link in menu is not displayed. The title link set at the header is applied is if a gadget with the settings is added.</td>
-    </tr>
-	<tr>
-    	<td>External service URL</td>
-        <td>The URL of the external server for the menu settings.<br>You can set in the dialog if clicked [Add menu tree] in the context menu or the root of the menu tree if setted the external service menu.<br>Refer to <a href="#specify_external_service">10 Specify the External Services</a></td>
-    </tr>
-	<tr>
-    	<td>External service authentication type</td>
-        <td>If you specify an external service URL, you can specify how to pass the login user ID of the portal to service.<br><br><b>none</b>: The information of the login user is not sent.<br><b>postPortalCredential</b>: Specify to post the user ID and the password of logged in user when RSS is loaded. A text box to specify the parameter name of user id that included in POST data is shown if postPortalCredential is selected. The parameter name of user id is "is-user" if the parameter name is not specified.<br><b>sendPortalCredentialHeader</b>: Specify to send the header including the user id of logged in user.A text box to specify the header name that sends user id is shown if sendPortalCredentialHeader is selected.The header name of user id is "is-user" if the header name is not specified.</td>
-    </tr>
+        <tr>
+            <td>Title</td>
+            <td>The title of the menu. Required.<br>The title can be entered up to 80 characters.</td>
+        </tr>
+        <tr>
+            <td>Title link</td>
+            <td>Link URL of the menu title.<br>The URL can be entered up to 1024 bytes.</td>
+        </tr>
+        <tr>
+            <td>Display link settings</td>
+            <td>Set the title link appears.<br>[auto detect]: Applies the frame in portal or new window according to displayInlinHost property settings. Refer to <i>displayInlineHost</i>.<br>[Frame in portal]: Displays a linked sites in the inner frame in portal.<br>[New window]: Displays a linked sites in another window.</td>
+        </tr>
+        <tr>
+            <td>No links on menu</td>
+            <td>Valid only if the gadget settings.<br>The link in menu is not displayed. The title link set at the header is applied is if a gadget with the settings is added.</td>
+        </tr>
+        <tr>
+            <td>External service URL</td>
+            <td>The URL of the external server for the menu settings.<br>You can set in the dialog if clicked [Add menu tree] in the context menu or the root of the menu tree if setted the external service menu.<br>Refer to <a href="#specify_external_service">10 Specify the External Services</a></td>
+        </tr>
+        <tr>
+            <td>External service authentication type</td>
+            <td>If you specify an external service URL, you can specify how to pass the login user ID of the portal to service.<br><br><b>none</b>: The information of the login user is not sent.<br><b>postPortalCredential</b>: Specify to post the user ID and the password of logged in user when RSS is loaded. A text box to specify the parameter name of user id that included in POST data is shown if postPortalCredential is selected. The parameter name of user id is "is-user" if the parameter name is not specified.<br><b>sendPortalCredentialHeader</b>: Specify to send the header including the user id of logged in user.A text box to specify the header name that sends user id is shown if sendPortalCredentialHeader is selected.The header name of user id is "is-user" if the header name is not specified.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -263,16 +265,15 @@ The following is description of [**Enable multiple drops**] setting items.
 
 <table>
     <thead>
-	<tr>
-    	<th nowrap>Setting items</th>
-    	<th>Description</th>
-    </tr>
+        <tr>
+            <th nowrap>Setting items</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Enable multiple drops</td>
-    	<td>Specifies whether more than one can be added to the customize area from the menu.<br><b>Enabled</b>: Allows to add multiple gadgets.<br><b>Disabled</b>: Can not allows to add multiple gadgets.</td>
-    </tr>
+        <tr>
+            <td>Enable multiple drops</td>
+            <td>Specifies whether more than one can be added to the customize area from the menu.<br><b>Enabled</b>: Allows to add multiple gadgets.<br><b>Disabled</b>: Can not allows to add multiple gadgets.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -307,16 +308,16 @@ Setting items are shown as follows if [Gadget (specifying URL)] in [Gadget type]
 
 <table>
     <thead>
-	<tr>
-    	<th nowrap>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th nowrap>Setting items</th>
+            <th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Gadget URL</td>
-        <td>Type the URL of the gadget file.<br>The URL can be entered up to <b>1022</b> bytes.<br>If you click [Get Title Information], the title and the link are gotten from the gadget file. Also, [Title] and [Title link] are set in "Link on menu".</td>
-    </tr>
+        <tr>
+            <td>Gadget URL</td>
+            <td>Type the URL of the gadget file.<br>The URL can be entered up to <b>1022</b> bytes.<br>If you click [Get Title Information], the title and the link are gotten from the gadget file. Also, [Title] and [Title link] are set in "Link on menu".</td>
+        </tr>
     </tbody>
 </table>
 
@@ -327,16 +328,16 @@ If you select [**Blogparts**] in the type of gadget, follows are displayed.
 
 <table>
     <thead>
-	<tr>
-    	<th nowrap>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th nowrap>Setting items</th>
+            <th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>HTML Source</td>
-        <td>Setting contents of the blogparts in the blogparts gadget.</td>
-    </tr>
+        <tr>
+            <td>HTML Source</td>
+            <td>Setting contents of the blogparts in the blogparts gadget.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -391,105 +392,105 @@ Menu configuration service makes a REST service. Response XML file has the follo
 
 *Menu configuration file schema*
     
-    <!ELEMENT sites 		(site-top*)> 
-    <!ELEMENT site-top 		(site*)> 
-    <!ATTLIST site-top 		id 	 		#CDATA 		#REQUIRED 
-    				        title  		#CDATA 		#REQUIRED 
-    				        href 	 	#CDATA 		#IMPLIED
+    <!ELEMENT sites         (site-top*)> 
+    <!ELEMENT site-top      (site*)> 
+    <!ATTLIST site-top      id          #CDATA      #REQUIRED 
+                            title       #CDATA      #REQUIRED 
+                            href        #CDATA      #IMPLIED
     >
-    <!ELEMENT site 			(properties, site*)> 
-    <!ATTLIST site 			id 	 		#CDATA 		#REQUIRED 
-    				        title   	#CDATA 		#REQUIRED
-    				        display		#CDATA 		#REQUIRED 
-    				        href 	  	#CDATA 		#IMPLIED 
-    				        type 	  	#CDATA 		#IMPLIED 
+    <!ELEMENT site          (properties, site*)> 
+    <!ATTLIST site          id          #CDATA      #REQUIRED 
+                            title       #CDATA      #REQUIRED
+                            display     #CDATA      #REQUIRED 
+                            href        #CDATA      #IMPLIED 
+                            type        #CDATA      #IMPLIED 
     >
-    <!ELEMENT properties 	(property*)> 
-    <!ELEMENT property 		(#PCDATA)> 
-    <!ATTLIST property 		name 		#CDATA 		#REQUIRED>
+    <!ELEMENT properties    (property*)> 
+    <!ELEMENT property      (#PCDATA)> 
+    <!ATTLIST property      name        #CDATA      #REQUIRED>
 
 Multiple menu tree can be included in one service if the sites element is used as a root element. Also, the site-top can be a root element, and sites element can be omitted if one menu tree is defined by one service. Each setting item is explained as follows.
 
 <table>
     <thead>
-	<tr>
-    	<th nowrap>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th nowrap>Setting items</th>
+            <th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td nowrap>sites element</td>
-        <td>The root element of the menu configuration file. Include multiple site-top elements in sites element to define multiple menu trees by one service.</td>
-    </tr>
-	<tr>
-    	<td align="right">site-top element</td>
-        <td>The following is the description of site-top element.</td>
-    </tr>
-	<tr>
-    	<td nowrap>site-top element</td>
-        <td>Type the information for a menu tree.</td>
-    </tr>
-	<tr>
-    	<td align="right">id attribute</td>
-        <td>The ID used internally. You must type a unique ID that does not conflict with other menu items. The ID must be unique in all of menus.</td>
-    </tr>
-	<tr>
-    	<td align="right">title attribute</td>
-        <td>Title of the menu.</td>
-    </tr>
-	<tr>
-    	<td align="right">href attribute</td>
-        <td>Type the destination URL associated with the menu.</td>
-    </tr>
-	<tr>
-    	<td align="right">site element</td>
-        <td>The following is the description of the site element.</td>
-    </tr>
-	<tr>
-    	<td>site element</td>
-        <td>Type information for menu items.</td>
-    </tr>
-	<tr>
-    	<td align="right">id attribute</td>
-        <td>The ID use internally. You must type a unique ID and the other menu items.<br>The ID must be unique in all of menus.<br>The max length of the id is 256 bytes. If the id is over the 256 bites, the<br>menu is displayed, but the gadget icons is hidden.</td>
-    </tr>
-	<tr>
-    	<td align="right">title attribute</td>
-        <td>Title of the menu.</td>
-    </tr>
-	<tr>
-    	<td align="right">href attribute</td>
-        <td>Type the destination URL associated with the menu.</td>
-    </tr>
-	<tr>
-    	<td align="right">type</td>
-        <td>Specify the gadget type to make it enable to be dropped.<br>Specify the following type.<br>
-        <ul>
-        	<li>RssReader</li>
-        	<li>MultiRssReader</li>
-        	<li>MiniBrowser</li>
-        	<li>Gadget</li>
-        	<li>Unspecified</li>
-        </ul>
-        </td>
-    </tr>
-	<tr>
-    	<td nowrap>property element</td>
-        <td>Type the properties of Gadget-specific information.</td>
-    </tr>
-	<tr>
-    	<td align="right">site element</td>
-        <td>You can recursively define the menu hierarchy.</td>
-    </tr>
-	<tr>
-    	<td align="right">property element</td>
-        <td>Type the information (URL) of RSS in RSS Reader or Multi-RSS Reader.</td>
-    </tr>
-	<tr>
-    	<td align="right">name attribute</td>
-        <td>Type the mapping key to RSS information. Now, type "url". If you select "Gadget" in type, the length of URL is a maximum of 1022 bytes. If you select other type, there is no restrictions.</td>
-    </tr>
+        <tr>
+            <td nowrap>sites element</td>
+            <td>The root element of the menu configuration file. Include multiple site-top elements in sites element to define multiple menu trees by one service.</td>
+        </tr>
+        <tr>
+            <td align="right">site-top element</td>
+            <td>The following is the description of site-top element.</td>
+        </tr>
+        <tr>
+            <td nowrap>site-top element</td>
+            <td>Type the information for a menu tree.</td>
+        </tr>
+        <tr>
+            <td align="right">id attribute</td>
+            <td>The ID used internally. You must type a unique ID that does not conflict with other menu items. The ID must be unique in all of menus.</td>
+        </tr>
+        <tr>
+            <td align="right">title attribute</td>
+            <td>Title of the menu.</td>
+        </tr>
+        <tr>
+            <td align="right">href attribute</td>
+            <td>Type the destination URL associated with the menu.</td>
+        </tr>
+        <tr>
+            <td align="right">site element</td>
+            <td>The following is the description of the site element.</td>
+        </tr>
+        <tr>
+            <td>site element</td>
+            <td>Type information for menu items.</td>
+        </tr>
+        <tr>
+            <td align="right">id attribute</td>
+            <td>The ID use internally. You must type a unique ID and the other menu items.<br>The ID must be unique in all of menus.<br>The max length of the id is 256 bytes. If the id is over the 256 bites, the<br>menu is displayed, but the gadget icons is hidden.</td>
+        </tr>
+        <tr>
+            <td align="right">title attribute</td>
+            <td>Title of the menu.</td>
+        </tr>
+        <tr>
+            <td align="right">href attribute</td>
+            <td>Type the destination URL associated with the menu.</td>
+        </tr>
+        <tr>
+            <td align="right">type</td>
+            <td>Specify the gadget type to make it enable to be dropped.<br>Specify the following type.<br>
+            <ul>
+                <li>RssReader</li>
+                <li>MultiRssReader</li>
+                <li>MiniBrowser</li>
+                <li>Gadget</li>
+                <li>Unspecified</li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>property element</td>
+            <td>Type the properties of Gadget-specific information.</td>
+        </tr>
+        <tr>
+            <td align="right">site element</td>
+            <td>You can recursively define the menu hierarchy.</td>
+        </tr>
+        <tr>
+            <td align="right">property element</td>
+            <td>Type the information (URL) of RSS in RSS Reader or Multi-RSS Reader.</td>
+        </tr>
+        <tr>
+            <td align="right">name attribute</td>
+            <td>Type the mapping key to RSS information. Now, type "url". If you select "Gadget" in type, the length of URL is a maximum of 1022 bytes. If you select other type, there is no restrictions.</td>
+        </tr>
     </tbody>
 </table>
 

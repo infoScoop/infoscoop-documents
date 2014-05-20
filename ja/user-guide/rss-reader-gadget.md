@@ -32,7 +32,7 @@ RSSリーダーのコントロールとその操作について説明します�
             </td>
         </tr>
         <tr>
-            <td>(3)</td>	
+            <td>(3)</td>
             <td>RSSアイテムタイトル</td>
             <td>
                 <p>
@@ -347,41 +347,43 @@ RSSリーダーのコントロールとその操作について説明します�
 ## 最大化時のヘッダアイコンの説明
 
 <table>
-	<tr>
-    	<th>アイコン</th>
-        <th>名前</th>
-        <th>説明</th>
-    </tr>
-	<tr>
-    	<td><img src="../../images/html_valid.png"/></td>
-        <td>全文表示</td>
-        <td>右側の詳細表示パネルをコンテンツ全体をインナーフレームに表示するモードに切り替えます。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/html_gray.png"/></td>
-        <td>サマリー表示</td>
-        <td>右側の詳細表示パネルをRSSのサマリー情報を表示するモードに切り替えます。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/clock.gif"/></td>
-        <td>詳細日時表示/非表示</td>
-        <td>更新日時の表示/非表示を切り替えます。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>更新</td>
-        <td>RSSを再読み込みします。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/help.png"/></td>
-        <td>ヘルプ</td>
-        <td>ヘルプウィンドウを表示します。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/restore.gif"/></td>
-        <td>元に戻す</td>
-        <td>最大化されているガジェットを元に戻します。</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>アイコン</th><th>名前</th><th>説明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="../../images/html_valid.png"/></td>
+            <td>全文表示</td>
+            <td>右側の詳細表示パネルをコンテンツ全体をインナーフレームに表示するモードに切り替えます。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/html_gray.png"/></td>
+            <td>サマリー表示</td>
+            <td>右側の詳細表示パネルをRSSのサマリー情報を表示するモードに切り替えます。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/clock.gif"/></td>
+            <td>詳細日時表示/非表示</td>
+            <td>更新日時の表示/非表示を切り替えます。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>更新</td>
+            <td>RSSを再読み込みします。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/help.png"/></td>
+            <td>ヘルプ</td>
+            <td>ヘルプウィンドウを表示します。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/restore.gif"/></td>
+            <td>元に戻す</td>
+            <td>最大化されているガジェットを元に戻します。</td>
+        </tr>
+    </tbody>
 </table>
 
 
@@ -403,46 +405,49 @@ RSSリーダーを最大化した場合のコンテンツの詳細表示は、2�
 RSSリーダーは以下のようなキーにより、キーボードから操作することが可能です。
 
 <table>
-	<tr>
-    	<th>キー</th>
-        <th>説明</th>
-    </tr>
-	<tr>
-        <td>↓↑</td>
-        <td>文書間を移動</td>
-    </tr>
-	<tr>
-        <td>→←</td>
-        <td>サマリー表示/全文表示の切り替え(<img src="../../images/html_gray.png"/>/<img src="../../images/html_valid.png"/>と同様)</td>
-    </tr>
-	<tr>
-        <td>ENTER</td>
-        <td>選択した文書のサマリー表示または全文表示</td>
-    </tr>
-	<tr>
-        <td>SHIFT+M</td>
-        <td>メール送信</td>
-    </tr>
-	<tr>
-        <td>R</td>
-        <td>更新(<img src="../../images/refresh.gif"/>と同様)</td>
-    </tr>
-	<tr>
-        <td>Q</td>
-        <td>元に戻る(最大化解除)(<img src="../../images/restore.gif"/>と同様)</td>
-    </tr>
-	<tr>
-        <td>T</td>
-        <td>詳細日時表示/非表示(<img src="../../images/clock.gif"/>と同様)</td>
-    </tr>
-	<tr>
-        <td>M</td>
-        <td>サマリー表示/全文表示の切り替え(<img src="../../images/html_gray.png"/>/<img src="../../images/html_valid.png"/>と同様)</td>
-    </tr>
-	<tr>
-        <td>H</td>
-        <td>ヘルプの表示(<img src="../../images/help.png"/>と同様)</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>キー</th><th>説明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>↓↑</td>
+            <td>文書間を移動</td>
+        </tr>
+        <tr>
+            <td>→←</td>
+            <td>サマリー表示/全文表示の切り替え(<img src="../../images/html_gray.png"/>/<img src="../../images/html_valid.png"/>と同様)</td>
+        </tr>
+        <tr>
+            <td>ENTER</td>
+            <td>選択した文書のサマリー表示または全文表示</td>
+        </tr>
+        <tr>
+            <td>SHIFT+M</td>
+            <td>メール送信</td>
+        </tr>
+        <tr>
+            <td>R</td>
+            <td>更新(<img src="../../images/refresh.gif"/>と同様)</td>
+        </tr>
+        <tr>
+            <td>Q</td>
+            <td>元に戻る(最大化解除)(<img src="../../images/restore.gif"/>と同様)</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>詳細日時表示/非表示(<img src="../../images/clock.gif"/>と同様)</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>サマリー表示/全文表示の切り替え(<img src="../../images/html_gray.png"/>/<img src="../../images/html_valid.png"/>と同様)</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td>ヘルプの表示(<img src="../../images/help.png"/>と同様)</td>
+        </tr>
+    </tbody>
 </table>
 
 

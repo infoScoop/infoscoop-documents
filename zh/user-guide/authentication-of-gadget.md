@@ -1,2 +1,14 @@
-This document may contain untranslated or unedited parts.  
-[Your cooperation](../../README.md) would be greatly appreciated!
+# 小工具的认证
+
+在各小工具里面被表示的信息中，有的需要认证信息的设定。
+
+这些要求认证信息里面，有的要求提供信息的服务器认证，也有因管理员设定需要输入认证信息，无论哪一种情况下，在需要输入认证信息的小工具中，在初始表示时或是在追加小工具时都会出现以下要求输入认证信息的画面。
+
+![Authentication of gadget]
+
+输入恰当的用户ID/密码，单击[登录]按钮后，将取得所需信息并显示小工具。
+
+如果为认证失败了，上述的认证信息输入框将被再次表示。
+
+
+[Authentication of gadget]: images/etc/authentication-of-gadget.png

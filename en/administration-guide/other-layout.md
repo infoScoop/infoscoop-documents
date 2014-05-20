@@ -39,22 +39,20 @@ administration page is in the table below.
 <table>
     <thead>
         <tr>
-            <th>Icon</th>
-            <th>Name</th>
-            <th>Description</th>
+            <th>Icon</th><th>Name</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>Refresh</td>
-        <td>Discard the change and displays the last applied state.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-        <td>Apply changes</td>
-        <td>Apply the changes. (Save the data.)<br><b>Note:</b> All the changes are discarded if this icon is not clicked.</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>Discard the change and displays the last applied state.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>Apply the changes. (Save the data.)<br><b>Note:</b> All the changes are discarded if this icon is not clicked.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -101,20 +99,19 @@ The icon types can be used are as follows.
 
 <table>
     <thead>
-	<tr>
-    	<th>Icon Type</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th>Icon Type</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>mail</td>
-        <td>Displaying an e-mail send button.</td>
-    </tr>
-	<tr>
-    	<td>message</td>
-        <td>Displaying a button to send a message about this article.</td>
-    </tr>
+        <tr>
+            <td>mail</td>
+            <td>Displaying an e-mail send button.</td>
+        </tr>
+        <tr>
+            <td>message</td>
+            <td>Displaying a button to send a message about this article.</td>
+        </tr>
     </tbody>
 </table>
 

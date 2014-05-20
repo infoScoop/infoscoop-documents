@@ -1,2 +1,8 @@
-This document may contain untranslated or unedited parts.  
-[Your cooperation](../../README.md) would be greatly appreciated!
+# 退出
+
+点击门户界面上「退出」，浏览器的表示会移动到登录界面。
+
+![Logout]
+
+
+[Logout]: images/command-bar/logout.png

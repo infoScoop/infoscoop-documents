@@ -42,27 +42,25 @@ The context menu of OAuth administration page is explained below.
 <table>
     <thead>
         <tr>
-            <th>Icon</th>
-            <th>Name</th>
-            <th>Description</th>
+            <th>Icon</th><th>Name</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/add_menu_tree.gif"/></td>
-        <td>Add</td>
-        <td>Add the OAuth gadget settings.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-        <td>Apply changes</td>
-        <td>Edit operation is saved by click.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>Refresh</td>
-        <td>Discard the change and displays the last applied state.</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/add_menu_tree.gif"/></td>
+            <td>Add</td>
+            <td>Add the OAuth gadget settings.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>Edit operation is saved by click.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>Discard the change and displays the last applied state.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -79,72 +77,71 @@ The contents of the modal window for **Consumer Settings** are explained in the
 
 <table>
     <thead>
-    <tr>
-        <th colspan="2">Setting Item</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th colspan="2">Setting Item</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-    <tr>
-        <td colspan="2">Service name</td>
-        <td>Enter the service name of the gadget.<br>The service name of the gadget is described in the xml file which is a main part of a gadget.<br>The value of the name attribute of `Module/ModulePrefs/OAuth/Service` is a service name.</td>
-    </tr>
-    <tr>
-        <td colspan="2">OAuth version</td>
-        <td>Select the version of OAuth.<br>
-            <ul>
-                <li>1.0</li>
-                <li>2.0</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="3">1.0</td>
-        <td>Signature algorism</td>
-        <td>According to specification of a service provider, a signature algorithm is chosen from following two.<br>
-            <ul>
-                <li>HMAC-SHA1</li>
-                <li>RSA-SHA1</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>Consumer key</td>
-        <td>The consumer key acquired from the service provider is typed when HMAC-SHA1 is selected.</td>
-    </tr>
-    <tr>
-        <td>Consumer secret</td>
-        <td>The consumer secret acquired from the service provider is typed when HMAC-SHA1 is selected.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">2.0</td>
-        <td>Client ID</td>
-        <td>Enter the client Id acquired from the service provider.</td>
-    </tr>
-    <tr>
-        <td>Client secret</td>
-        <td>Enter the client secret acquired from the service provider.</td>
-    </tr>
-    <tr>
-        <td colspan="2">Description</td>
-        <td>Enter the description of the consumer setting. (optional)</td>
-    </tr>
-    <tr>
-        <td colspan="2">Add gagdget</td>
-        <td>Add a gadget that uses the consumer setting.<br>A gadget can be added by entering the URL or by selecting from the uploaded gadgets.
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2"></td>
-        <td>Gadget(URL specified)</td>
-        <td>Enter the URL of a gadget.<br>e.g.&nbsp;http://www.infoscoop.org/gadgets/hello.xml
-        </td>
-    </tr>
-    <tr>
-        <td>UploadedGadget</td>
-        <td>Select a gadget from the uploaded gadgets.<br>A gadget can be uploaded on <b>Gadget</b> Administration page.
-        </td>
-	</tr>
+        <tr>
+            <td colspan="2">Service name</td>
+            <td>Enter the service name of the gadget.<br>The service name of the gadget is described in the xml file which is a main part of a gadget.<br>The value of the name attribute of `Module/ModulePrefs/OAuth/Service` is a service name.</td>
+        </tr>
+        <tr>
+            <td colspan="2">OAuth version</td>
+            <td>Select the version of OAuth.<br>
+                <ul>
+                    <li>1.0</li>
+                    <li>2.0</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">1.0</td>
+            <td>Signature algorism</td>
+            <td>According to specification of a service provider, a signature algorithm is chosen from following two.<br>
+                <ul>
+                    <li>HMAC-SHA1</li>
+                    <li>RSA-SHA1</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Consumer key</td>
+            <td>The consumer key acquired from the service provider is typed when HMAC-SHA1 is selected.</td>
+        </tr>
+        <tr>
+            <td>Consumer secret</td>
+            <td>The consumer secret acquired from the service provider is typed when HMAC-SHA1 is selected.</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2.0</td>
+            <td>Client ID</td>
+            <td>Enter the client Id acquired from the service provider.</td>
+        </tr>
+        <tr>
+            <td>Client secret</td>
+            <td>Enter the client secret acquired from the service provider.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Description</td>
+            <td>Enter the description of the consumer setting. (optional)</td>
+        </tr>
+        <tr>
+            <td colspan="2">Add gagdget</td>
+            <td>Add a gadget that uses the consumer setting.<br>A gadget can be added by entering the URL or by selecting from the uploaded gadgets.
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td>Gadget(URL specified)</td>
+            <td>Enter the URL of a gadget.<br>e.g.&nbsp;http://www.infoscoop.org/gadgets/hello.xml
+            </td>
+        </tr>
+        <tr>
+            <td>UploadedGadget</td>
+            <td>Select a gadget from the uploaded gadgets.<br>A gadget can be uploaded on <b>Gadget</b> Administration page.
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -168,22 +165,20 @@ The context menu of an **OAuth** administration is explained.
 <table>
     <thead>
         <tr>
-            <th>Icon</th>
-            <th>Name</th>
-            <th>Description</th>
+            <th>Icon</th><th>Name</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-        <td>Apply changes</td>
-    	<td>Edit operation is saved by click.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>Refresh</td>
-    	<td>Discard the change and displays the last applied state.</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>Edit operation is saved by click.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>Discard the change and displays the last applied state.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -194,24 +189,23 @@ are the following tables.
 
 <table>
     <thead>
-	<tr>
-    	<th nowrap>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th nowrap>Setting items</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Consumer key</td>
-        <td>The arbitrary character strings for identifying a container uniquely are specified.<br>Pass a consumer key to the service provider corresponding to Signed Request or OAuth.</td>
-    </tr>
-	<tr>
-    	<td>Private key</td>
-        <td>A RSA secret key without the passphrase of PEM form is specified.<br>Don't open a secret key to nobody.</td>
-    </tr>
-	<tr>
-    	<td>Public key</td>
-        <td>The RSA public key of PEM form is specified.<br>Public key is acquirable from the following URL.<br>http://localhost:8080/infoscoop/opensocial/certificates/public.cer<br>Pass a public key to the service provider corresponding to Signed Request or OAuth.</td>
-    </tr>
+        <tr>
+            <td>Consumer key</td>
+            <td>The arbitrary character strings for identifying a container uniquely are specified.<br>Pass a consumer key to the service provider corresponding to Signed Request or OAuth.</td>
+        </tr>
+        <tr>
+            <td>Private key</td>
+            <td>A RSA secret key without the passphrase of PEM form is specified.<br>Don't open a secret key to nobody.</td>
+        </tr>
+        <tr>
+            <td>Public key</td>
+            <td>The RSA public key of PEM form is specified.<br>Public key is acquirable from the following URL.<br>http://localhost:8080/infoscoop/opensocial/certificates/public.cer<br>Pass a public key to the service provider corresponding to Signed Request or OAuth.</td>
+        </tr>
     </tbody>
 </table>
 

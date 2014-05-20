@@ -64,22 +64,21 @@ Explain the context menu of the Default Layout administration page.
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/database_refresh.gif"/></td>
-    	<td>Initialization of customized information</td>
-        <td>All the customization information of the user who specified is eliminated
-compulsorily.<br><br>See: <a href="#initialize_customize">9 Initializing of Customized Information</a></td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-    	<td>Apply changes</td>
-        <td>Edit operation is saved by click.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/preview.gif"/></td>
-    	<td>Preview Top page</td>
-        <td>The present composition information is displayed in another window.<br>Only administrator that have "Menu" authority can use this icon.</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/database_refresh.gif"/></td>
+            <td>Initialization of customized information</td>
+            <td>All the customization information of the user who specified is eliminated compulsorily.<br><br>See: <a href="#initialize_customize">9 Initializing of Customized Information</a></td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>Edit operation is saved by click.<br><b>Note:</b> Finally, if you do not click this icon, editing is destroyed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/preview.gif"/></td>
+            <td>Preview Top page</td>
+            <td>The present composition information is displayed in another window.<br>Only administrator that have "Menu" authority can use this icon.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -112,24 +111,22 @@ The following is explanation about a role setup.
 <table>
     <thead>
         <tr>
-            <th>Setting items</th>
-            <th>Description</th>
+            <th>Setting items</th><th>Description</th>
         </th>
     </thead>
     <tbody>
-	<tr>
-    	<td>Role name</td>
-        <td>Specifies the name of role.<br>A role name is a free label and there is no systematic meaning.Specify a corresponding organization name etc.
-</td>
-    </tr>
-	<tr>
-    	<td>Subject</td>
-        <td>The type of a roll is chosen.<br>A subject is mapped by the value of a HTTP header by setup. How to set, refer to Installation Guide / <a href="../installation-guide/customizing-web-application-module.md#http-header">5 Define the HTTP header as role information</a>.</td>
-    </tr>
-	<tr>
-    	<td>Regular expression</td>
-        <td>The pattern of the authority to use this setup is specified with a regular expression.<br>If the authority at the time of login matches this pattern, the layout of that tab is applied as an initial page.<br>The judgment of a regular expression is judged in an order from a top for each subject, and a setup which matched first is applied.<br><br><b>Note:</b> URL (regular expressions), you need to write a regular expression that can be used in JavaScript.</td>
-    </tr>
+        <tr>
+            <td>Role name</td>
+            <td>Specifies the name of role.<br>A role name is a free label and there is no systematic meaning.Specify a corresponding organization name etc.</td>
+        </tr>
+        <tr>
+            <td>Subject</td>
+            <td>The type of a roll is chosen.<br>A subject is mapped by the value of a HTTP header by setup. How to set, refer to Installation Guide / <a href="../installation-guide/customizing-web-application-module.md#http-header">5 Define the HTTP header as role information</a>.</td>
+        </tr>
+        <tr>
+            <td>Regular expression</td>
+            <td>The pattern of the authority to use this setup is specified with a regular expression.<br>If the authority at the time of login matches this pattern, the layout of that tab is applied as an initial page.<br>The judgment of a regular expression is judged in an order from a top for each subject, and a setup which matched first is applied.<br><br><b>Note:</b> URL (regular expressions), you need to write a regular expression that can be used in JavaScript.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -176,29 +173,28 @@ Each component has the following options.
 <table>
     <thead>
         <tr>
-            <th colspan="2">Setting items</th>
-            <th>Description</th>
+            <th colspan="2">Setting items</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-    <tr>
-        <td colspan="2">urls element<br></td>
-        <td>It contains url element.</td>
-    </tr>
-    <tr>
-        <td colspan="2">url element</td>
-        <td>Set the rankings information.</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>title attribute</td>
-        <td>Ranking title.<br>The title of the Ranking gadget.</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>url attribute</td>
-        <td>URL of RSS which feeds ranking information is set up.</td>
-	</tr>
+        <tr>
+            <td colspan="2">urls element<br></td>
+            <td>It contains url element.</td>
+        </tr>
+        <tr>
+            <td colspan="2">url element</td>
+            <td>Set the rankings information.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>title attribute</td>
+            <td>Ranking title.<br>The title of the Ranking gadget.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>url attribute</td>
+            <td>URL of RSS which feeds ranking information is set up.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -225,38 +221,36 @@ A setup of each parameter is explained below.
 <table>
     <thead>
         <tr>
-            <th>Parameter name</th>
-            <th>Description</th>
+            <th>Parameter name</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td colspan=2>baseDate</td>
-    </tr>
-	<tr>
-    	<td>Setting content</td>
-        <td>The time which starts the sum of "Search Keyword Ranking" is specified.<br>Search Keyword Ranking data of a period specified by "period" on the basis of "baseDate" is created.</td>
-    </tr>
-	<tr>
-    	<td>Details</td>
-        <td>TODAY : 0:00 of an execution day becomes sum starting time. If TODAY is set up, a sum is performed only once in one day. Ranking data is cached by the server. Normally use this setting.<br><br>
-yyyyMMddHH: The time specified by date format "yyyyMMddHH" becomes the start of a sum.</td>
-    </tr>
-	<tr>
-    	<td colspan=2>period</td>
-    </tr>
-	<tr>
-    	<td>Setting content</td>
-        <td>The period (days) of Search Keyword Ranking is specified.<br>Search Keyword Ranking data is created till the period specified from the time of a date of record.<br>The maximum value is 60.</td>
-    </tr>
-	<tr>
-    	<td colspan=2>rankingNum</td>
-    </tr>
-	<tr>
-    	<td>Setting content</td>
-        <td>The number of displays of ranking data is specified.<br>If the data after generation is less than the number of displays, all the data
-is generated.<br>The maximum value is 30.</td>
-    </tr>
+        <tr>
+            <td colspan=2>baseDate</td>
+        </tr>
+        <tr>
+            <td>Setting content</td>
+            <td>The time which starts the sum of "Search Keyword Ranking" is specified.<br>Search Keyword Ranking data of a period specified by "period" on the basis of "baseDate" is created.</td>
+        </tr>
+        <tr>
+            <td>Details</td>
+            <td>TODAY : 0:00 of an execution day becomes sum starting time. If TODAY is set up, a sum is performed only once in one day. Ranking data is cached by the server. Normally use this setting.<br><br>
+            yyyyMMddHH: The time specified by date format "yyyyMMddHH" becomes the start of a sum.</td>
+        </tr>
+        <tr>
+            <td colspan=2>period</td>
+        </tr>
+        <tr>
+            <td>Setting content</td>
+            <td>The period (days) of Search Keyword Ranking is specified.<br>Search Keyword Ranking data is created till the period specified from the time of a date of record.<br>The maximum value is 60.</td>
+        </tr>
+        <tr>
+            <td colspan=2>rankingNum</td>
+        </tr>
+        <tr>
+            <td>Setting content</td>
+            <td>The number of displays of ranking data is specified.<br>If the data after generation is less than the number of displays, all the data is generated.<br>The maximum value is 30.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -271,28 +265,27 @@ The settings are as follows.
 <table>
     <thead>
         <tr>
-            <th>Setting items</th>
-            <th>Description</th>
+            <th>Setting items</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Displaying name</td>
-        <td>The display name of a link</td>
-    </tr>
-	<tr>
-    	<td>Link URL</td>
-        <td>URL of a link</td>
-    </tr>
-	<tr>
-    	<td>Link display on</td>
-        <td>The target of a link is specified.<br>
-			<ul>
-		    	<li>New window : the link is displayed on a new window.</li>
-		    	<li>Frame in portal : Displays a linked sites in the inner frame in portal.</li>
-		    </ul>
-		</td>
-    </tr>
+        <tr>
+            <td>Displaying name</td>
+            <td>The display name of a link</td>
+        </tr>
+        <tr>
+            <td>Link URL</td>
+            <td>URL of a link</td>
+        </tr>
+        <tr>
+            <td>Link display on</td>
+            <td>The target of a link is specified.<br>
+                <ul>
+                    <li>New window : the link is displayed on a new window.</li>
+                    <li>Frame in portal : Displays a linked sites in the inner frame in portal.</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -305,19 +298,18 @@ The settings are as follows.
 <table>
     <thead>
         <tr>
-            <th>Setting items</th>
-            <th>Description</th>
+            <th>Setting items</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Displaying name</td>
-        <td>It is a name displayed on a list.</td>
-    </tr>
-	<tr>
-    	<td>HTML</td>
-        <td>HTML displayed on a command bar is described.</td>
-    </tr>
+        <tr>
+            <td>Displaying name</td>
+            <td>It is a name displayed on a list.</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>HTML displayed on a command bar is described.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -386,19 +378,18 @@ The following describes the common settings to set the default layout you can se
 <table>
     <thead>
         <tr>
-            <th>Setting items</th>
-            <th>Description</th>
+            <th>Setting items</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Title</td>
-        <td>Specify the title of the gadget. This item is required.<br>The title can be specified up to 80 characters.</td>
-    </tr>
-	<tr>
-    	<td>Title link</td>
-        <td>Specify the link URL for the gadget title.<br>The URL can be entered up to 1024 bytes.</td>
-    </tr>
+        <tr>
+            <td>Title</td>
+            <td>Specify the title of the gadget. This item is required.<br>The title can be specified up to 80 characters.</td>
+        </tr>
+        <tr>
+            <td>Title link</td>
+            <td>Specify the link URL for the gadget title.<br>The URL can be entered up to 1024 bytes.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -409,15 +400,14 @@ This section describes the common settings of all the gadgets.
 <table>
     <thead>
         <tr>
-            <th>Setting items</th>
-            <th>Description</th>
+            <th>Setting items</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Not displaying header</td>
-        <td>Enable to hide the header of the gadget.<br>This is available only in Fixed area.</td>
-    </tr>
+        <tr>
+            <td>Not displaying header</td>
+            <td>Enable to hide the header of the gadget.<br>This is available only in Fixed area.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -444,15 +434,16 @@ Setting items are shown as follows if **Gadget (specifying URL)** in **Gadget t
 
 <table>
     <thead>
-	<tr>
-    	<th>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th>Setting items</th><th>Description</th>
+        </tr>
     </thead>
-	<tr>
-    	<td>Gadget URL</td>
-        <td>Types the URL of the gadget file.<br>The URL can type up to 1022 bytes.<br>If you click <b>Get Title Information</b>, getting the title and the link from the gadget file. And, set in <b>Title</b> and <b>Title link</b> in "Link on menu".</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td>Gadget URL</td>
+            <td>Types the URL of the gadget file.<br>The URL can type up to 1022 bytes.<br>If you click <b>Get Title Information</b>, getting the title and the link from the gadget file. And, set in <b>Title</b> and <b>Title link</b> in "Link on menu".</td>
+        </tr>
+    </tbody>
 </table>
 
 ### 7.3 Personalized Area: Initial Display of Gadget Setting

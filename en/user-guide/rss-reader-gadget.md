@@ -332,41 +332,43 @@ A maximized RSS Reader Gadget is displayed by clicking "Maximize" icon in the Ga
 ## Description of the Maximized Header Icons
 
 <table>
-	<tr>
-    	<th>Icon</th>
-        <th>Name</th>
-        <th>Description</th>
-    </tr>
-	<tr>
-    	<td><img src="../../images/html_valid.png"/></td>
-        <td>Full display</td>
-        <td>Switch the detail display panel on the right at the mode in which the whole content is displayed in the inner frame.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/html_gray.png"/></td>
-        <td>Summary display</td>
-        <td>Switch the detail display panel on the right at the mode in which the summary of rss item is displayed.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/clock.gif"/></td>
-        <td>Display/Hide the detail date</td>
-        <td>Switch display or hide the date updated.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>Refresh</td>
-        <td>Reload a RSS.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/help.png"/></td>
-        <td>Help</td>
-        <td>Display the help window.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/restore.gif"/></td>
-        <td>Back</td>
-        <td>Restore the maximized window.</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Icon</th><th>Name</th><th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="../../images/html_valid.png"/></td>
+            <td>Full display</td>
+            <td>Switch the detail display panel on the right at the mode in which the whole content is displayed in the inner frame.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/html_gray.png"/></td>
+            <td>Summary display</td>
+            <td>Switch the detail display panel on the right at the mode in which the summary of rss item is displayed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/clock.gif"/></td>
+            <td>Display/Hide the detail date</td>
+            <td>Switch display or hide the date updated.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>Reload a RSS.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/help.png"/></td>
+            <td>Help</td>
+            <td>Display the help window.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/restore.gif"/></td>
+            <td>Back</td>
+            <td>Restore the maximized window.</td>
+        </tr>
+    </tbody>
 </table>
 
 
@@ -387,46 +389,49 @@ There are 2 patterns of displaying the details of the contents when RSS Reader G
 You can operate RSS Reader Gadget from the keyboard below.
 
 <table>
-	<tr>
-    	<th>Key</th>
-        <th>Description</th>
-    </tr>
-	<tr>
-        <td>UP ARROW, DOWN ARROW</td>
-        <td>Move in the content part.</td>
-    </tr>
-	<tr>
-        <td>LEFT ARROW, RIGHT ARROW</td>
-        <td>Replace summary display or full display(similar to <img src="../../images/html_gray.png"/> / <img src="../../images/html_valid.png"/>)</td>
-    </tr>
-	<tr>
-        <td>ENTER</td>
-        <td>Summary display or full display the selected content.</td>
-    </tr>
-	<tr>
-        <td>SHIFT+M</td>
-        <td>Send mail</td>
-    </tr>
-	<tr>
-        <td>R</td>
-        <td>Refresh(similar to <img src="../../images/refresh.gif"/>)</td>
-    </tr>
-	<tr>
-        <td>Q</td>
-        <td>Restore(remove "maximize")(similar to <img src="../../images/restore.gif"/>)</td>
-    </tr>
-	<tr>
-        <td>T</td>
-        <td>Display/Hide the detail date time(similar to <img src="../../images/clock.gif"/>)</td>
-    </tr>
-	<tr>
-        <td>M</td>
-        <td>Replace summary diplay/full display(similar to <img src="../../images/html_gray.png"/> / <img src="../../images/html_valid.png"/>)</td>
-    </tr>
-	<tr>
-        <td>H</td>
-        <td>Display the Help(similar to <img src="../../images/help.png"/>)</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>Key</th><th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UP ARROW, DOWN ARROW</td>
+            <td>Move in the content part.</td>
+        </tr>
+        <tr>
+            <td>LEFT ARROW, RIGHT ARROW</td>
+            <td>Replace summary display or full display(similar to <img src="../../images/html_gray.png"/> / <img src="../../images/html_valid.png"/>)</td>
+        </tr>
+        <tr>
+            <td>ENTER</td>
+            <td>Summary display or full display the selected content.</td>
+        </tr>
+        <tr>
+            <td>SHIFT+M</td>
+            <td>Send mail</td>
+        </tr>
+        <tr>
+            <td>R</td>
+            <td>Refresh(similar to <img src="../../images/refresh.gif"/>)</td>
+        </tr>
+        <tr>
+            <td>Q</td>
+            <td>Restore(remove "maximize")(similar to <img src="../../images/restore.gif"/>)</td>
+        </tr>
+        <tr>
+            <td>T</td>
+            <td>Display/Hide the detail date time(similar to <img src="../../images/clock.gif"/>)</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>Replace summary diplay/full display(similar to <img src="../../images/html_gray.png"/> / <img src="../../images/html_valid.png"/>)</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td>Display the Help(similar to <img src="../../images/help.png"/>)</td>
+        </tr>
+    </tbody>
 </table>
 
 

@@ -153,21 +153,23 @@
 メニューを開くアイコン![ガジェットメニュー表示アイコン][Gadget Menu icon]をクリックすると、ガジェットのメニューが開きます。
 
 <table>
-	<tr>
-        <th>アイコン</th>
-        <th>名前</th>
-        <th>説明</th>
-    </tr>
-	<tr>
-    	<td><img src="../../images/access.gif"/></td>
-    	<td>グループ編集</td>
-        <td>グループ編集ウィンドウを表示します。グループ編集ウィンドウの説明は後述を参照してください。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/trash.gif"/></td>
-    	<td>削除</td>
-        <td>パーソナライズエリアからガジェットが削除されます。</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>アイコン</th><th>名前</th><th>説明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="../../images/access.gif"/></td>
+            <td>グループ編集</td>
+            <td>グループ編集ウィンドウを表示します。グループ編集ウィンドウの説明は後述を参照してください。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/trash.gif"/></td>
+            <td>削除</td>
+            <td>パーソナライズエリアからガジェットが削除されます。</td>
+        </tr>
+    </tbody>
 </table>
 
 
@@ -197,7 +199,7 @@
         <tr>
             <td>(2)</td>
             <td>公開メッセージ</td>
-            <td>	
+            <td>
                 <p>クリックすると公開メッセージ入力フォームを表示します。</p>
             </td>
         </tr>

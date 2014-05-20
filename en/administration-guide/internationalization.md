@@ -62,20 +62,19 @@ Locale settings are as the followings.
 
 <table>
     <thead>
-	<tr>
-    	<th>Setting items</th>
-        <th>Description</th>
-    </tr>
+        <tr>
+            <th>Setting items</th><th>Description</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td>Country</td>
-        <td>Select the country.</td>
-    </tr>
-	<tr>
-    	<td>Language</td>
-        <td>Select the language.</td>
-    </tr>
+        <tr>
+            <td>Country</td>
+            <td>Select the country.</td>
+        </tr>
+        <tr>
+            <td>Language</td>
+            <td>Select the language.</td>
+        </tr>
     </tbody>
 </table>
 

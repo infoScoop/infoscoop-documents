@@ -79,22 +79,20 @@ Ajaxプロキシは、受信したリクエストのURLと各プロキシ/URL置
 <table>
     <thead>
         <tr>
-            <th>アイコン</th>
-            <th>名前</th>
-            <th>説明</th>
+            <th>アイコン</th><th>名前</th><th>説明</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-    	<td>読み直し</td>
-        <td>前回変更を適用した状態を表示します。</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-    	<td>変更を適用する</td>
-        <td>クリックすると今までに行った編集操作を適用（データを保存）します。<br><strong>注意</strong> 最終的にこのアイコンをクリックしないと、編集操作は破棄されます。</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>読み直し</td>
+            <td>前回変更を適用した状態を表示します。</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>変更を適用する</td>
+            <td>クリックすると今までに行った編集操作を適用（データを保存）します。<br><strong>注意</strong> 最終的にこのアイコンをクリックしないと、編集操作は破棄されます。</td>
+        </tr>
     </tbody>
 </table>
 
@@ -121,16 +119,15 @@ Ajaxプロキシは、受信したリクエストのURLを別のURLに置換す�
 
 <table>
     <thead>
-	<tr>
-    	<th>アドレスパターン</th>
-        <th>置換ＵＲＬ</th>
-    </tr>
+        <tr>
+            <th>アドレスパターン</th><th>置換ＵＲＬ</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><code>^http://hostA/(.*)</code></td>
-        <td><code>http://172.22.115.234/$1</code></td>
-    </tr>
+        <tr>
+            <td><code>^http://hostA/(.*)</code></td>
+            <td><code>http://172.22.115.234/$1</code></td>
+        </tr>
     </tbody>
 </table>
 

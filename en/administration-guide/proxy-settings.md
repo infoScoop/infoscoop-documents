@@ -55,8 +55,8 @@ Proxy and Substitution URL
   * Header transmission
   * Intranet
   * Cache settings
-  	* Enable
-  	* Duration (minute)
+    * Enable
+    * Duration (minute)
   * Delete
 
 ### 2.1 Rule of Settings
@@ -85,22 +85,20 @@ This section explains the administration controls on the right-top of the page.
 <table>
     <thead>
         <tr>
-            <th>Icon</th>
-            <th>Name</th>
-            <th>Description</th>
+            <th>Icon</th><th>Name</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-    	<td>Refresh</td>
-        <td>The last state is displayed.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-    	<td>Apply changes</td>
-        <td>Apply the changes. (save the data)</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>The last state is displayed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>Apply the changes. (save the data)</td>
+        </tr>
     </tbody>
 </table>
 
@@ -129,16 +127,15 @@ Ajax proxy has the function to substitute to another URL from the URL of incomin
 
 <table>
     <thead>
-	<tr>
-    	<th>Address pattern</th>
-        <th>Substitute URL</th>
-    </tr>
+        <tr>
+            <th>Address pattern</th><th>Substitute URL</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><code>^http://hostA/(.*)</code></td>
-        <td><code>http://172.22.115.234/$1</code></td>
-    </tr>
+        <tr>
+            <td><code>^http://hostA/(.*)</code></td>
+            <td><code>http://172.22.115.234/$1</code></td>
+        </tr>
     </tbody>
 </table>
 

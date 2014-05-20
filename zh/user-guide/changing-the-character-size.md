@@ -1,2 +1,15 @@
-This document may contain untranslated or unedited parts.  
-[Your cooperation](../../README.md) would be greatly appreciated!
+# 更改字体大小
+
+点击命令栏上的![更改字体大小][Character Size Change Icon]图标，根据所点击的图标，显示的文字大小会改变。
+文字大小按照从小图标开始的顺序，会变更为小、标准、大。
+但是，更改字体大小功能不被适用于下列字符。
+
+* 菜单
+* 小工具标题文字列（标题、新到件数）
+* 标签的标题
+* 搜索标签的标题
+* 便签条小工具内输入的文字列
+* 内部框架内的字符串(迷你浏览器和使用内部框架的小工具数据)。
+
+
+[Character Size Change Icon]: ../../images/character.gif "更改字体大小"

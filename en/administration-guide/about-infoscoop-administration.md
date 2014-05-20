@@ -78,21 +78,25 @@ Statistical information can be referred to on a Home.
 The details of Statistics Information are as follows.
 
 <table>
-	<tr>
-    	<th>Item</th>
-        <th>Description</th>
-	<tr>
-    	<td>Number of active users</td>
-        <td>Displays the number of users currently logged on.</td>
-	</tr>
-	<tr>
-    	<td>Number of users accessed today</td>
-        <td>Displays the number of users logged on to the current date.</td>
-	</tr>
-	<tr>
-    	<td>Total number of users</td>
-        <td>Displays the number of users who have logged at least once so far.</td>
-	</tr>
+    <thead>
+        <tr>
+            <th>Item</th><th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Number of active users</td>
+            <td>Displays the number of users currently logged on.</td>
+        </tr>
+        <tr>
+            <td>Number of users accessed today</td>
+            <td>Displays the number of users logged on to the current date.</td>
+        </tr>
+        <tr>
+            <td>Total number of users</td>
+            <td>Displays the number of users who have logged at least once so far.</td>
+        </tr>
+    </tbody>
 </table>
 
 ### 4.2 Version Information
@@ -101,17 +105,21 @@ Version Information can be referred to on a Home.
 The details of Version Information are as follows.
 
 <table>
-	<tr>
-    	<th>Item</th>
-        <th>Description</th>
-	<tr>
-    	<td>Product Name</td>
-        <td>Displays a product name.</td>
-	</tr>
-	<tr>
-    	<td>Version</td>
-        <td>Current version information.</td>
-	</tr>
+    <thead>
+        <tr>
+            <th>Item</th><th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Product Name</td>
+            <td>Displays a product name.</td>
+        </tr>
+        <tr>
+            <td>Version</td>
+            <td>Current version information.</td>
+        </tr>
+    </tbody>
 </table>
 
 

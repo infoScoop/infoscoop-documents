@@ -15,7 +15,7 @@ Because there are functions duplicated with RSS Reader Gadget, some descriptions
     </thead>
     <tbody>
         <tr>
-            <td>(1)</td>	
+            <td>(1)</td>
             <td>Title</td>
             <td>
                 <p>

@@ -42,8 +42,7 @@ The possible privileges are listed below.
 <table>
     <thead>
         <tr>
-            <th>Setting items</th>
-            <th>Description</th>
+            <th>Setting items</th><th>Description</th>
         </tr>
     </thead>
     <tbody>

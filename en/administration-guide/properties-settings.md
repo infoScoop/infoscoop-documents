@@ -11,27 +11,25 @@ The functions of controls in the properties administration page are as the follo
 <table>
     <thead>
         <tr>
-            <th>Icon</th>
-            <th>Name</th>
-            <th>Description</th>
+            <th>Icon</th><th>Name</th><th>Description</th>
         </tr>
     </thead>
     <tbody>
-	<tr>
-    	<td><img src="../../images/display_all_properties.gif"/></td>
-        <td>Display all properties</td>
-    	<td>Display the properties hidden at initial that control the inner workings of program and are not supported in current version.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/refresh.gif"/></td>
-        <td>Refresh</td>
-    	<td>Discard the changes and displays the last applied state.</td>
-    </tr>
-	<tr>
-    	<td><img src="../../images/apply_changes.gif"/></td>
-        <td>Apply changes</td>
-    	<td>Apply the changes (saving data).<br><br><b>Note:</b> All the changes are discarded if this icon is not clicked.</td>
-    </tr>
+        <tr>
+            <td><img src="../../images/display_all_properties.gif"/></td>
+            <td>Display all properties</td>
+            <td>Display the properties hidden at initial that control the inner workings of program and are not supported in current version.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/refresh.gif"/></td>
+            <td>Refresh</td>
+            <td>Discard the changes and displays the last applied state.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/apply_changes.gif"/></td>
+            <td>Apply changes</td>
+            <td>Apply the changes (saving data).<br><br><b>Note:</b> All the changes are discarded if this icon is not clicked.</td>
+        </tr>
     </tbody>
 </table>
 

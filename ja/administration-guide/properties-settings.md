@@ -13,9 +13,7 @@ infoScoopOSS管理画面のメニューから[プロパティ]を選択すると
 <table>
     <thead>
         <tr>
-            <th>アイコン</th>
-            <th>名前</th>
-            <th>説明</th>
+            <th>アイコン</th><th>名前</th><th>説明</th>
         </tr>
     </thead>
     <tbody>
