@@ -14,9 +14,11 @@ Apache Ant is used for settings of deploying WAR file. Install later version tha
 
 infoScoop OpenSource supports following DBMS.
 
-  * MySQL 5.1
-  * DB2 9.5, 9.7
-  * Oracle10g R2 or higher (**Note:** An error reported with the JDBC driver of 10.2.0.1; when ones after Update2 works with the driver, initial data import tool causes an error.)
+* MySQL
+* DB2
+* Oracle
+
+See [System Requirements][System Requirements] for checking the supported version for the each DBMS.
 
 ## Setup for Repository Database
 
@@ -52,26 +54,33 @@ tools/initdb/lib
 
 Settings of database is described in bin/datasource.xml. The following is the example of settings for MySQL.
 
-    
-    …abbr…  
+```
+...
+<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
     <property name="driverClassName">
-      <value>com.mysql.jdbc.Driver</value>
+        <value>com.mysql.jdbc.Driver</value>
     </property>
     <property name="url">
-       <value>jdbc:mysql://localhost:3306/iscoop  
+        <value>jdbc:mysql://localhost:3306/iscoop?useUnicode=true&characterEncoding=UTF-8</value>
     </property>
     <property name="username">
-      <value>root</value>
+        <value>root</value>
     </property>
-    …abbr…  
+    <property name="password">
+        <value></value>
+    </property>
+</bean>
+<bean id="sessionFactory" ... >
+    ...
     <property name="hibernateProperties">
-      <props>
-          <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-          <prop key="hibernate.default_schema"></prop>
-          <prop key="hibernate.show_sql">true</prop>
-      </props>
+        <props>
+            <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+            <prop key="hibernate.default_schema"></prop>
+            ...
+        <props>
     </property>
-    …abbr…
+</bean>
+```
 
 <table>
 	<tr>
@@ -214,3 +223,4 @@ Thier passwords are all `password`. Use it for testing things on infoScoop.
 
 
 [Customizing Web Application Module]: customizing-web-application-module.md
+[System Requirements]: ../system-requirements.md "System Requirements"

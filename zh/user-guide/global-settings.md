@@ -27,7 +27,6 @@
 
 可以设定以下的项目。
 
-* 文字大小 : 更改文字大小。和 （参照 [Changing the Character Size] ）是一样的功能、设定所显示的文字的大小。
 * 新到图标的表示期限：设定读取RSS阅读器新到信息图标的表示期限。
 * 小工具确认对话框：合并RSS阅读器时，显示确认对话框。
 
@@ -56,11 +55,10 @@
 初始化时被删除的小工具都将进入回收站。
 
 
-## 取消
+## 关闭
 
-点击［取消］按钮，变更的内容不会被反映到系统里面。全体界面被关闭。
+点击［关闭］按钮，变更的内容不会被反映到系统里面。全体界面被关闭。
 
 
-[Changing the Character Size]: changing-the-character-size.md
 [Properties icon]: ../../images/display_all_properties.gif
 [Global Settings]: images/command-bar/global-settings.jpg

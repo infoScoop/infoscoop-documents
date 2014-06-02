@@ -16,9 +16,11 @@ infoScoop OpenSourceは、WARファイルにデプロイ用の設定する際に
 
 infoScoop OpenSourceは、以下のDBMSをサポートします。
 
-* MySQL 5.1
-* DB2 9.5, 9.7
-* Oracle10g R2以降(Update2以降、ただし10.2.0.1付属のJDBCドライバーでは初期データインポートツールでエラーが発生することが報告されています。)
+* MySQL
+* DB2
+* Oracle
+
+サポートする各DBMSのバージョンについては、[システム要件][System Requirements]をご確認ください。
 
 
 ## リポジトリデータベースのセットアップ
@@ -63,20 +65,31 @@ tools/initdb/lib
 
 
 ```
-...省略...
+...
 <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
     <property name="driverClassName">
         <value>com.mysql.jdbc.Driver</value>
-    </>
     </property>
-        <value>root</
-...省略...
-<property name="hibernateProperties">
-    <props>
-        <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-        <prop key="hibernate.default_schema"></prop>
-        <prop key="hibernate.show_sql">true</prop>
-...省略...
+    <property name="url">
+        <value>jdbc:mysql://localhost:3306/iscoop?useUnicode=true&characterEncoding=UTF-8</value>
+    </property>
+    <property name="username">
+        <value>root</value>
+    </property>
+    <property name="password">
+        <value></value>
+    </property>
+</bean>
+<bean id="sessionFactory" ... >
+    ...
+    <property name="hibernateProperties">
+        <props>
+            <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+            <prop key="hibernate.default_schema"></prop>
+            ...
+        <props>
+    </property>
+</bean>
 ```
 
 <table>
@@ -260,3 +273,4 @@ http://<ホスト名>:8080/infoscoop/
 
 
 [Customizing Web Application Module]: customizing-web-application-module.md "Webアプリケーションモジュールのカスタマイズ"
+[System Requirements]: ../system-requirements.md "システム要件"

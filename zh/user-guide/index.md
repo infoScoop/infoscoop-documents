@@ -1,3 +1,6 @@
+This document may contain untranslated or unedited parts.  
+[Your cooperation](../../README.md) would be greatly appreciated!
+
 # 用户指南
 
 这个用户指南解说关于infoScoop的使用方法。
@@ -8,6 +11,7 @@
 
   * [电子公告的操作][Ticker(Electrical Bulletin Board) Operations]
   * [返回首页][Going Back to Top Page]
+  * [Ranking][Ranking]
   * [更改字体大小][Changing the Character Size]
   * [全体设定][Global Settings]
   * [回收站的操作][Trash Bin Operations]
@@ -51,6 +55,7 @@
 [Screen Layout]: screen-layout.md "界面构成"
 [Ticker(Electrical Bulletin Board) Operations]: tickerelectrical-bulletin-board-operations.md "电子公告的操作"
 [Going Back to Top Page]: going-back-to-top-page.md "返回首页"
+[Ranking]: commandbar-ranking.md
 [Changing the Character Size]: changing-the-character-size.md "更改字体大小"
 [Global Settings]: global-settings.md "全体设定"
 [Trash Bin Operations]: trash-bin-operations.md "回收站的操作"

@@ -27,7 +27,6 @@ infoScoopの背景画像を選択することができます。
 
 以下の項目を設定可能です。
 
-* フォントサイズ: 文字サイズ変更（[文字サイズを変更する][Changing the Character Size]を参照）と同様の機能で、表示文字サイズの設定を行います。
 * 新着アイコン表示期間: RSSを読み込むウィジェットの新着アイコン表示期間の設定を行います。
 * ガジェットマージ確認ダイアログ: RSSガジェットをマージする際に表示される確認ダイアログの表示設定を行います。
 
@@ -56,11 +55,10 @@ RSSを読み込むガジェット(RSSリーダー、お知らせなど)に共通
 初期化時に削除されたガジェットは全てごみ箱に入ります。
 
 
-## キャンセル
+## 閉じる
 
-[キャンセル]ボタンをクリックすると変更内容を適用せずに全体設定画面が閉じられます。
+[閉じる]ボタンをクリックすると変更内容を適用せずに全体設定画面が閉じられます。
 
 
-[Changing the Character Size]: changing-the-character-size.md "文字サイズを変更する"
 [Properties icon]: ../../images/display_all_properties.gif "全体設定アイコン"
 [Global Settings]: images/command-bar/global-settings.jpg "全体設定の画面"

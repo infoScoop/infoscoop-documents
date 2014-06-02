@@ -19,7 +19,7 @@
 
 ![Selection of the search sites]
 
-选择搜索网站以及搜索结果的表示方式，点击[设定的保存]按钮后，可以以每一个用户为单位保存设定值。
+The options are kept as a user preference.
 
 之后的搜索将根据所设定的选项被执行。
 

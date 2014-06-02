@@ -25,7 +25,6 @@ At the Gadget Design Settings, the following items can be setup.
 
 At the General settings, the following items can be setup.
 
-  * Font size: The settings of the character size are executed here. It is the same function as the character size function(refer to [Changing the Character Size]).
   * The display period of new icons: The settings of the display period of the new icon of the Gadget that reads RSS are executed here.
   * Gadget merge confirmation dialog: The settings of displaying the confirmation dialog when merging RSS Gadgets are executed here.
 
@@ -52,12 +51,11 @@ You can initialize cutomized information if **Initialization of customized infor
 
 The all removed gadgets are moved to Trash Bin.
 
-## Cancel
+## Close
 
 The changed contents are not applied, and the Global Settings screen is closed
-if **Cancel** button is clicked.
+if **Close** button is clicked.
 
 
-[Changing the Character Size]: changing-the-character-size.md
 [Properties icon]: ../../images/display_all_properties.gif
 [Global Settings]: images/command-bar/global-settings.jpg

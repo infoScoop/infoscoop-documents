@@ -6,7 +6,7 @@ A sun shaped icon which means new arrival is displayed with the articles in RSS 
 
 There are two kinds of sun shaped icon that is displayed with new articles.
 
-* Rotating sun shaped icon is displayed with the articles displayed for the first time.
+* Blinking sun shaped icon is displayed with the articles displayed for the first time.
 * Fixed sun shaped icon is displayed with the articles displayed recently.
 
 The condition of articles that the sun shaped icon doesn't rotate is:

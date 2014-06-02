@@ -67,6 +67,10 @@ The possible privileges are listed below.
             <td>Allows default layout settings.</td>
         </tr>
         <tr>
+            <td>Tab</td>
+            <td>Allows tabs settings.</td>
+        </tr>
+        <tr>
             <td>Other Layout</td>
             <td>Allows other layout settings.</td>
         </tr>
@@ -93,6 +97,10 @@ The possible privileges are listed below.
         <tr>
             <td>OAuth</td>
             <td>Allows OAuth settings.</td>
+        </tr>
+        <tr>
+            <td>External Apps</td>
+            <td>Allows External applications settings.</td>
         </tr>
     </tbody>
 </table>

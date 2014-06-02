@@ -38,6 +38,9 @@
 * [OAuth管理][OAuth Administration]  
   OAuth及びOAuth関連仕様についての設定及び管理方法について説明します。
 
+* [外部アプリ管理][External Apps]  
+  APIアクセスするためのOAuthプロバイダー設定および管理方法について説明します。
+
 
 [About infoScoop Administration]: about-infoscoop-administration.md "infoScoopの管理について"
 [Menu Settings]: menu-settings.md "メニュー管理"
@@ -51,3 +54,4 @@
 [Administrator Settings]: administrator-settings.md "管理者設定"
 [Forbidden URL Settings]: forbidden-url-settings.md "禁止URL設定"
 [OAuth Administration]: oauth-administration.md "OAuth管理"
+[External Apps]: external-apps.md "外部アプリ管理"

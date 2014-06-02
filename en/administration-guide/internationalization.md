@@ -15,10 +15,9 @@ The following components can be internationalized.
 
   * Menu
   * Search form
-  * Other Layout
+  * Other Layout (and header)
     * Title
-    * Header
-    * iFrameToolbar
+    * Content footer
     * JavaScript Customize
   * Gadget
   * infoScoop OpenSource (I18N Messages used in infoScoop can not be internationalized.)
@@ -86,11 +85,8 @@ Locale is removed by clicking ![Trash icon] icon of each row.
 
 I18N message import dialog is displayed by clicking **Import**.  
 There are two import modes as below.
-
-```
-Replace all: Delete all the messages data in the appropriate locale and then run import.  
-Fill differences: Run import message data without removing the locale message.
-```
+* Replace all: Delete all the messages data in the appropriate locale and then run import.  
+* Fill differences: Run import message data without removing the locale message.
 
 The following case occurs an error.
 
@@ -125,7 +121,7 @@ Refere to [Search Form Administration] for configuration of search form.
 Import i18n messages to an item of `Other Layout` type.  
 Select **Other Layout** from the side bar of **Layout** tab and set the title as `%{ID of i18n}`. Refere to [Other Layout] for configuration of other layout.
 
-**Note:** XML reserved characters such as `<`, `>`, `&`, `'`, `"` are not available for messages in title, header and iFrameToolBar. Also, the messages used for JavaScript need to be written in correct format without syntax errors.
+**Note:** XML reserved characters such as `<`, `>`, `&`, `'`, `"` are not available for messages in title, content footer and header. Also, the messages used for JavaScript need to be written in correct format without syntax errors.
 
 ## 5 Internationalize Holidays
 

@@ -10,12 +10,12 @@ Administration items in infoScoop OpenSource include the following.
 
   * Settings of items that appear on the top menu and side menu.
   * Settings of the site to search form.
+  * Settings of Portal Header
   * Settings of Command Bar.
   * Settings of Tab and initial screen layout.
   * Common Layout
     * Portal Title
-    * Header
-    * Inner frame toolbar
+    * Inner frame content footer
     * Custom JavaScript
     * Custom Style Sheets
 
@@ -27,6 +27,7 @@ Administration items in infoScoop OpenSource include the following.
   * Administrators
   * Forbidden URL
   * OAuth
+  * External application
 
 These items are set up on the **administration page**.
 
@@ -38,13 +39,15 @@ The explanation of a administration menu is as follows.
   * Gadget: Default settings of each gadget, addition of a gadget, etc. are performed.
   * Layout: The common setting of a pages and a user pages composition are set up.
     * Default Layout: An arrangement settings of the gadget displayed when logged in to application for the first time is performed. Default Layout can be set as an organization unit.
-    * Other Layout: A customizable component, which are the title of a portal site, a header, etc., is set up.
+    * Other Layout: A customizable component, which are the title of a portal site, a content footer in inner frame, etc., is set up.
   * I18N: Each settings corresponds to internationalization. Administration of the message to be used can be carried out on this screen.
   * Properties: Set up system properties.
   * Proxy: A proxy server can be set to the request performed from a server.
   * Administrators: The user ID which can access a administration page is managed.
   * Forbidden URL: The website which cannot be displayed with a MiniBrowser gadget is managed.
   * OAuth: A settings about OAuth related specification is performed.
+  * External Apps: The settings about OAuth2 authentication of external applications that access infoScoop through the API.
+
 
 ## 2 Login and Start Administration Page
 
@@ -74,7 +77,6 @@ In Home, simple explanation of each controlling function, statistical informatio
 
 ### 4.1 Statistics Information
 
-Statistical information can be referred to on a Home.  
 The details of Statistics Information are as follows.
 
 <table>

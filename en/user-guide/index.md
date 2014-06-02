@@ -7,6 +7,7 @@ This user guide explains how to use infoScoop.
 The components are listed below:
    * [Ticker(Electrical Bulletin Board) Operations]
    * [Going Back to Top Page]
+   * [Ranking]
    * [Changing the Character Size]
    * [Global Settings]
    * [Trash Bin Operations]
@@ -44,6 +45,7 @@ Execute one of the following methods to add a Gadget to the personalized area.
 [Screen Layout]: screen-layout.md
 [Ticker(Electrical Bulletin Board) Operations]: tickerelectrical-bulletin-board-operations.md
 [Going Back to Top Page]: going-back-to-top-page.md
+[Ranking]: commandbar-ranking.md
 [Changing the Character Size]: changing-the-character-size.md
 [Global Settings]: global-settings.md
 [Trash Bin Operations]: trash-bin-operations.md

@@ -1,3 +1,7 @@
+This document may contain untranslated or unedited parts.  
+[Your cooperation](../../README.md) would be greatly appreciated!  
+
+
 # 初始画面设定
 
 关于用户第一次登录infoScoop OpenSource时所表示的画面构成的设定方法进行以下说明。

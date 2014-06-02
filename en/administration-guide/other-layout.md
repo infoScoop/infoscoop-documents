@@ -8,9 +8,7 @@ To customize common elements, select **Layout** in Administration page, and sele
 The following elements can be customized by using this feature.
 
   * Title
-  * Header
-  * iframe Toolbar  
-A toolbar shown only if an application within the same domain as infoScoop's is shown in Frame in portal.
+  * Content footer
   * Custom JavaScript  
 Specify customized JavaScript to add extra features.
   * Custom Style Sheets  
@@ -26,7 +24,6 @@ To show **Other Layout** administration page, go to **Layout** and then **Other 
 Click to select the following elements shown in the list next to the side bar.
 
   * title
-  * header
   * contentFooter
   * javascript
   * css
@@ -60,31 +57,13 @@ administration page is in the table below.
 
 This section explains the elements that can be configured in Other Layout administration page.
 
-### 3.1 Title
+### 3.1 Title (title)
 
 Specify a title. It is shown at the upper left of the browser after logging in to this product.  
 If a login page is used, the title is also shown in the login page.
 
-### 3.2 Header
 
-Write HTML to customize the header.  
-As default, the HTML is commented out, and header is not displyed on Portal screen.  
-Write as follows to display orange strings in the header.  
-e.g. Test Header
-
-    <div style="color:orange;">Test Header</div>
-
-#### 3.2.1 Displaying User ID
-
-Write the following format to display user ID in the header.
-
-    ${session.getAttribute("Uid")}
-
-The format to display a user ID might be changed in the future updates. In that case, it is indicated in the release note.
-
-**Note:** Displaying a user ID is supported for updates, but other formats are not guaranteed due to the compatibility for updates.
-
-### 3.3 contentFooter
+### 3.2 Content footer (contentFooter)
 
 Write a part of XML for the style of content footer.  
 The format is as follows.
@@ -126,14 +105,14 @@ In addition, the URL of the open page is displayed with specified icons.
 In a maximized RSS reader, the content footer is displayed only in Summery mode.  
 Footer is not displayed if no icon is specified.
 
-### 3.4 javascript
+### 3.3 JavaScript (javascript)
 
 Write JavaScript directly.  
-The written JavaScript functions can be used in header, commandBar, and iframeToolBar.
+The written JavaScript functions can be used in header, commandBar, and content footer.
 
 **Note:** Incorrect JavaScript might prevent infoScoop from starting. In addition, the operation of customized JavaScript is not guaranteed, so customizing JavaScript is not supported.
 
-### 3.5 Style Sheet
+### 3.4 Style Sheet (css)
 
 Write custom style sheet directly.
 

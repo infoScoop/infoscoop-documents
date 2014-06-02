@@ -3,7 +3,7 @@
 This section explains how to setup QuickStart.  
 Unzip `infoscoop-x.x.x-quickstart.zip(tar.gz)` and execute the following steps. (x is version number.)
 
-**Note:**　Installation of MySQL 5.1and JDK 5.0 or higher is necessary in advance.
+**Note:**　Installation of MySQL and JDK is necessary in advance.　Check the version to install at [System Requirements][System Requirements].
 
 ## 1 Create Repository Database
 
@@ -28,7 +28,7 @@ In default settings of quickstart, MySQL uses the same server with default port 
 If other settings are needed to change, database settings should be changed.  
 Database settings can be changed in infoscoop.xml which is in the directory below.
     
-    apache-tomcat-6.0.28/conf/Catalina/localhost/infoscoop.xml
+    apache-tomcat-x.x.x/conf/Catalina/localhost/infoscoop.xml
 
 Change Resource element of GlobalNamingResources element.
 
@@ -87,3 +87,4 @@ Move to `initdb` directory, and execute `addaccount.bat(sh)` file.
 Change Resource element of `GlobalNamingResources` element.
 
 
+[System Requirements]: ../system-requirements.md "System Requirements"

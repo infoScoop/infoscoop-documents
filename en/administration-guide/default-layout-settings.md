@@ -1,3 +1,7 @@
+This document may contain untranslated or unedited parts.  
+[Your cooperation](../../README.md) would be greatly appreciated!  
+
+
 # Default Layout Settings
 
 This section describes how to set page configuration that is displayed when a user logged in first.
@@ -15,8 +19,9 @@ infoScoop OpenSource receives a user's role information from a HTTP header.
 In Default Layout, the following is the point of a setup.
 
   1. Command bar
-  2. Each tab - Fixed area
-  3. Each tab - Personalized area
+  2. Header
+  3. Each tab - Fixed area
+  4. Each tab - Personalized area
 
 ## 2 Default Layout Administration
 
@@ -29,7 +34,7 @@ An default layout setup is set up to a role information.
 Only `defaultRole` is used if all the users use the same Default Layout.  
 A click of the edit icon of the role to set up is display an edit display.  
 All the tabs set up from a administration page turn into a fixed tab.  
-The edit displays of Default Layout differ with a Command Bar and a tab.
+The default layout editting pages for Command Bar, Header, Tab are each different.
 
 - Command Bar  
 The edit display of Command Bar consists of the following items.
@@ -137,7 +142,7 @@ If it clicks a **Back to list**, it is return to a role list.
 ### 4.1 Do not use default
 
 A default roll `defaultRole` can be repealed and only the user who matched the role can be made to display a tab.  
-This setup is effective except a commandbar and tab0 (home tab).  
+This setting is available except Commandbar, Header, and tab0 (home tab).  
 `defaultRole` can be repealed by validating the **Do not use default** check box currently displayed on the right-hand side of the `Add` button.
 
 <a name="command_bar"></a>

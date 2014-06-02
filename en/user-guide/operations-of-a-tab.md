@@ -7,8 +7,8 @@ The screen can be switched by multiple tabs. This page explains operations of a 
 Kinds of operations of the tab are executed from the tab menu.
 
 The tab operations on the tab menu are different and they depend on the fixed tab and the user's adding tab.
-* The operations on the tab menu of the user's adding tab are "Reload a tab", "Delete a tab", "Change tab name", "Change number of columns of tab", "Adjust width of tab column".
-* The operations on the tab menu of the fixed tab are "Reload a tab", "Change number of columns of tab", "Adjust width of tab column".
+* The operations on the tab menu of the user's adding tab are "Refresh", "Delete", "Rename", "Change the number of Columns", and "Reset Column Width".
+* The operations on the tab menu of the fixed tab are "Refresh", "Change the number of Columns", "Reset Column Width", and "Initialize tab content".
 
 ### Opening the Tab Menu
 

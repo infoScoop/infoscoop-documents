@@ -16,10 +16,11 @@ infoScoop OpenSource对WAR文件部署设定时候利用Ant。请安装Ant 1.6.5
 
 infoScoop OpenSource支持下面的数据库管理系统。
 
-* MySQL 5.1
-* DB2 9.5, 9.7
-* Oracle10g R2的或更高版本（Update2或更高，但其包含的JDBC驱动程序10.2.0.1据报道在数据导入初始化有错误）
+* MySQL
+* DB2
+* Oracle
 
+See [System Requirements][System Requirements] for checking the supported version for the each DBMS.
 
 ## 数据存储器数据库的安装
 
@@ -63,20 +64,31 @@ tools/initdb/lib
 
 
 ```
-...省略...
+...
 <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
     <property name="driverClassName">
         <value>com.mysql.jdbc.Driver</value>
-    </>
     </property>
-        <value>root</
-...省略...
-<property name="hibernateProperties">
-    <props>
-        <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-        <prop key="hibernate.default_schema"></prop>
-        <prop key="hibernate.show_sql">true</prop>
-...省略...
+    <property name="url">
+        <value>jdbc:mysql://localhost:3306/iscoop?useUnicode=true&characterEncoding=UTF-8</value>
+    </property>
+    <property name="username">
+        <value>root</value>
+    </property>
+    <property name="password">
+        <value></value>
+    </property>
+</bean>
+<bean id="sessionFactory" ... >
+    ...
+    <property name="hibernateProperties">
+        <props>
+            <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+            <prop key="hibernate.default_schema"></prop>
+            ...
+        <props>
+    </property>
+</bean>
 ```
 
 <table>
@@ -240,3 +252,4 @@ infoscoop/build.properties
 
 
 [Customizing Web Application Module]: customizing-web-application-module.md "Web应用程序模块的自定义"
+[System Requirements]: ../system-requirements.md "System Requirements"

@@ -38,14 +38,12 @@ infoScoopOSS管理画面のメニューから[プロパティ]を選択すると
 </table>
 
 ## 2 メニューに関連するプロパティ
-
 メニュー設定に関するプロパティは以下の通りです。
 
-「siteAggregationMenuURL」と「sideMenuURL」については、[メニュー管理][Menu Settings]も参照ください。
 
 ### 2.1 displayTopMenu
 
-トップメニューを表示/非表示を設定します。
+トップメニューを表示／非表示を設定します。
 
     表示：トップメニューを表示します。
     非表示：トップメニューを表示しません。
@@ -53,7 +51,7 @@ infoScoopOSS管理画面のメニューから[プロパティ]を選択すると
 
 ### 2.2 displaySideMenu
 
-サイドメニューの表示/非表示、および、トップメニューと構成を同じにするかどうかを設定します。
+サイドメニューの表示／非表示、および、トップメニューと構成を同じにするかどうかを設定します。
 
     表示：サイドメニューを表示します。
     非表示：サイドメニューを表示しません。
@@ -203,6 +201,41 @@ QueueWaitに設定した間隔で送信されます。
 
 カスタマイズ情報はブラウザを閉じたときまたは他のサイトに移動したときにも保存されます。
 
+
+### 5.4 defaultTheme
+
+ユーザーが初めてログインした時に適用されるデフォルトのデザインを指定します。
+
+    JavaScriptの連想配列を指定します。
+    デフォルト値：
+    {
+        background : {
+            image : './skin/imgs/theme/stripe.png'
+        },
+        widget : {
+            header : {
+                background : {
+                    image : './skin/imgs/theme/widget_header.png'
+                }
+            },
+            border : {
+                color : '#BCBCBC',
+                radius : '0px'
+            },
+            shade : {
+                color : '#EEE'
+            },
+            subheader : {
+                background : {
+                    color : '#EEEEFF'
+                }
+            }
+        }
+    }
+
+**注意** 本プロパティの変更はサポート対象外になります。バージョンアップ時の互換性は保障されません。
+
+
 ## 6 ユーザー操作ログに関するプロパティ
 
 本製品は、検索やリンククリックなど特定のユーザー操作をリポジトリデータベースに保存する仕組みがあります。
@@ -273,7 +306,16 @@ QueueWaitに設定した間隔で送信されます。
 
 ## 8 ログインおよびセッションに関するプロパティ
 
-### 8.1 loginStateKeepPeriod
+### 8.1 lastAccessTimeFormat
+本製品の標準ログイン画面ではユーザーの最終アクセス日時を保存する機能と保存した日時を表示する機能があります。lastAccessTimeFormatは保存した最終アクセス日時を表示する際の書式を指定します。
+なお指定可能な書式については[ガジェット管理／7.2 使用できる日付フォーマット][Gadget Settings]を参照してください。
+
+    日付／時刻パターン文字列で指定します。
+    デフォルト値：yy/MM/dd HH:mm
+
+システムが認識できない文字列が記述された場合は、デフォルト値を書式として利用します。
+
+### 8.2 loginStateKeepPeriod
 
 本製品の標準ログイン画面ではブラウザにログイン状態を保存する機能があります。loginStateKeepPeriodはログイン状態が保存される期間を指定しま
 す。
@@ -283,27 +325,17 @@ QueueWaitに設定した間隔で送信されます。
 
 0以下の整数を指定した場合は、ログイン状態を保存する機能が無効になります。
 
-### 8.2 loginCredentialAuthType
-
-本製品の標準ログイン画面で入力したログイン情報を認証ガジェット機構で使用する認証情報として自動的に登録する場合に、適用される認証タイプを指定します。
-
-    basic：基本認証
-    ntlm：NTLM認証
-    postCredential：認証情報をPOSTする
-    選択しない：認証情報を登録しない
-
-上記以外の値を入力した場合は、不正な認証タイプとして扱われ、認証ガジェット機構が動作しません。
-
-運用中に本設定を変更した場合、次回ユーザーログイン時に新しく設定された認証タイプの認証情報が新しくシステムの認証情報として登録されます。この際、古い認証情報は
-通常の認証情報に降格し設定されているガジェットがなければ自動的に削除されます。
-
-**注意** この設定は［プロキシ］タブ内の［社内］チェックボックスが有効になっている場合、適用されます。［社内］チェックボックスの設定については、管理ガイドの<a href="proxy-settings.md#proxy_manage_intranet">6 社内（イントラネット）設定</a>を参照してください。
-
 ## 9 システム構成に関するプロパティ
 
 システム構成を変更した際に、設定する必要があるプロパティは以下の通りです。
 
-### 9.1 staticContentURL
+### 9.1 tabLockTimeout
+初期画面管理画面でタブ（またはコマンドバー）を編集中に何もしないで一定の時間が経過した場合、自動的に編集ロックが解除されます。その間隔を設定します。
+
+    分単位で数値を指定します。
+    デフォルト値：60
+
+### 9.2 staticContentURL
 
 infoScoop OpenSourceの静的ファイルが格納されている場所をURLで指定します。
 
@@ -335,7 +367,7 @@ Apacheの適当な位置に配置し、mod_expiresモジュールの設定を行
     デフォルト値：.(コンテキストパスからの相対パス)
 
 <a name="9_2_gadgetProxyURL"></a>
-### 9.2 gadgetProxyURL
+### 9.3 gadgetProxyURL
 
 infoScoop上に表示されるガジェットのコンテンツはinfoScoopのAjaxプロキシを通して表示されます。つまり、ガジェットはinfoScoopと同
 一ドメインのコンテンツとして表示されるためクロスドメインスクリプトの問題が発生してしまいます。
@@ -402,10 +434,27 @@ gadgetProxyURLには「`http://gadgetproxy/infoscoop/gadgetsrv`」を指定し�
 
 **注意** 本プロパティの変更はサポート対象外になります。バージョンアップ時の互換性は保障されません。
 
+### 9.4 loginCredentialAuthType
+
+本製品の標準ログイン画面で入力したログイン情報を認証ガジェット機構で使用する認証情報として自動的に登録する場合に、適用される認証タイプを指定します。
+
+    basic：基本認証
+    ntlm：NTLM認証
+    postCredential：認証情報をPOSTする
+    選択しない：認証情報を登録しない
+
+上記以外の値を入力した場合は、不正な認証タイプとして扱われ、認証ガジェット機構が動作しません。
+
+運用中に本設定を変更した場合、次回ユーザーログイン時に新しく設定された認証タイプの認証情報が新しくシステムの認証情報として登録されます。この際、古い認証情報は
+通常の認証情報に降格し設定されているガジェットがなければ自動的に削除されます。
+
+**注意** この設定は［プロキシ］タブ内の［社内］チェックボックスが有効になっている場合、適用されます。［社内］チェックボックスの設定については、管理ガイドの<a href="proxy-settings.md#proxy_manage_intranet">6 社内（イントラネット）設定</a>を参照してください。
+
 
 [Menu Settings]: menu-settings.md "メニュー管理"
 [Proxy Settings]: proxy-settings.md "プロキシ管理"
 [Auto Update]: ../user-guide/auto-update.md "自動更新"
 [Search Form Administration]: search-form-administration.md "検索サイト管理"
+[Gadget-Settings]: gadget-setings.md#date-format
 [Invalid Access of Gadgets]: images/properties-manager/properties-settings-1.png "ガジェットの不正アクセス"
 [Run Gadgets in Other Domain]: images/properties-manager/properties-settings-2.png "ガジェットを別ドメインで実行"

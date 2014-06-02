@@ -20,9 +20,9 @@ If you click __Search options__, you can choose search site and display search r
 
 ![Selection of the search sites]
 
-Choose search site and search results display target, Click [**Save settings**] button to save settings for each user.
+The options are kept as a user preference.
 
-Since then, search as search settings.
+Since then, searching will follow the options.
 
 
 [The Screen of search result]: images/etc/search-1.png

@@ -4,7 +4,7 @@
 
 `infoscoop-x.x.x-quickstart.zip(tar.gz)`を解凍し以下の手順を実行して下さい。(xにはバージョン番号が入ります。)
 
-**注意** 事前にMySQL 5.1およびJDK 5.0以上をインストールして下さい。
+**注意** 事前にMySQL及びJDKをインストールしてください。インストールするバージョンについては[システム要件][System Requirements]をご確認ください。
 
 
 ## 1 リポジトリデータベースの作成
@@ -36,7 +36,7 @@ $ mysql -uroot -p --default-character-set=utf8 iscoop < init_infoscoop.ja.sql
 これ以外の場合は、データベース設定を変更する必要があります。  
 設定を変更する場合は、以下のファイルを編集します。
 
-    apache-tomcat-6.0.28/conf/Catalina/localhost/infoscoop.xml
+    apache-tomcat-x.x.x/conf/Catalina/localhost/infoscoop.xml
 
 以下の属性を適切な値に変更してください。
 
@@ -100,3 +100,4 @@ $ mysql -uroot -p --default-character-set=utf8 iscoop < init_infoscoop.ja.sql
     $ addaccount.bat(sh)
 
 
+[System Requirements]: ../system-requirements.md "システム要件"
