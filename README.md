@@ -5,9 +5,9 @@ infoscoop-documents is a documentation project for [infoScoop][infoscoop-github-
 ## Top Documents
 Top documentation for each language are as follows.
 
-* [index (English)][index-en]
-* [index（日本語）][index-ja]
-* [index (zh)][index-zh]
+* [Document (English)][document-en]
+* [ドキュメント（日本語）][document-ja]
+* [文档 (zh)][document-zh]
 
 ## Writing Rules
 Please follow the writing rules below when you work on changing the documents.
@@ -19,9 +19,9 @@ Please follow the writing rules below when you work on changing the documents.
 
 [infoscoop-github-project]: https://github.com/infoScoop/infoscoop "infoScoop/infoscoop - GitHub"
 [infoscoop-oss-website]: http://www.infoscoop.org/ "infoScoop OpenSource website"
-[index-en]: en/index.md
-[index-ja]: ja/index.md
-[index-zh]: zh/index.md
+[document-en]: en/index.md
+[document-ja]: ja/index.md
+[document-zh]: zh/index.md
 [writing-rule-en]: en/writing-rules.md "Writing Rules (English)"
 [writing-rule-ja]: ja/writing-rules.md "執筆ルール（Japanese）"
 [writing-rule-zh]: zh/writing-rules.md "Writing Rules (Chinese)"
