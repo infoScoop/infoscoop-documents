@@ -408,7 +408,7 @@ gadgetProxyURLには「`http://gadgetproxy/infoscoop/gadgetsrv`」を指定し�
 
 **注意** この機能を利用するには、ワイルドカードで名前解決をする設定をDNSに追加する必要があります。
 
-### 9.3 messagePriority
+### 9.4 messagePriority
 
 メッセージコンソールに表示する、情報のレベルを設定します。
 
@@ -424,7 +424,7 @@ gadgetProxyURLには「`http://gadgetproxy/infoscoop/gadgetsrv`」を指定し�
 
 1～4以外の値を入力した場合は、デフォルト値が適用されます。
 
-### 9.4 searchEngineURL
+### 9.5 searchEngineURL
 
 外部の検索エンジン設定ファイルを取得するためのURLを指定します。
 
@@ -434,7 +434,7 @@ gadgetProxyURLには「`http://gadgetproxy/infoscoop/gadgetsrv`」を指定し�
 
 **注意** 本プロパティの変更はサポート対象外になります。バージョンアップ時の互換性は保障されません。
 
-### 9.4 loginCredentialAuthType
+### 9.6 loginCredentialAuthType
 
 本製品の標準ログイン画面で入力したログイン情報を認証ガジェット機構で使用する認証情報として自動的に登録する場合に、適用される認証タイプを指定します。
 

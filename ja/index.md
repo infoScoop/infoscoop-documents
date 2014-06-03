@@ -1,5 +1,8 @@
 # ドキュメント 3.4.0
 
+* [システム要件][System Requirements]  
+  infoScoop OpenSourceのシステム要件です。
+
 * [インストールガイド][Installation Guide]  
   infoScoop OpenSourceをセットアップする手順について解説しています。
 
@@ -15,6 +18,7 @@
 * [技術仕様][Technical Specifications]  
   infoScoop OpenSouceのガジェット仕様について説明します。
 
+[System Requirements]: system-requirements.md "システム要件"
 [Installation Guide]: installation-guide/index.md "インストールガイド"
 [User Guide]: user-guide/index.md "ユーザーガイド"
 [Administration Guide]: administration-guide/index.md "管理ガイド"
