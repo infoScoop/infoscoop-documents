@@ -86,7 +86,7 @@ RSSリーダーと機能が重複する部分については説明を省略し�
                     ガジェットを最小化します。「最小化」アイコンは「元に戻す」アイコンに替わります。<br>
                     最小化すると太陽アイコンが表示され、新着RSSアイテムの件数が表示されます。<br>
                     RSSアイテムの件数は、新着件数/総件数の順で表示されます。<br>
-                    <img src="images/widget/composite-rss-reader-gadget-2.png" alt="最小化されたまとめてRSSリーダー">
+                    ![最小化されたまとめてRSSリーダー][Minimized RSS Reader Gadget]
                 </p>
             </td>
         </tr>
@@ -134,7 +134,7 @@ RSSリーダーと機能が重複する部分については説明を省略し�
             <td>
                 <p>
                     クリックするとガジェット設定が表示されます。<br>
-                    <img src="images/widget/composite-rss-reader-gadget-4.jpg" alt="まとめてRSSリーダーのガジェット設定"><br>
+                    ![まとめてRSSリーダーのガジェット設定][Settings of Composite RSS Reader Gadget]
                     <ul>
                         <li>ガジェットタイトル: 任意のガジェットタイトルを挿入します。</li>
                         <li>改行する: RSSアイテムのタイトルを改行して表示するか、一行で表示できない部分を隠すかどうかを選択します。</li>
@@ -264,7 +264,7 @@ RSSアイテムは設定により、登録されているカテゴリ別また�
 
 ![時間順表示時のガジェットメニュー][Display According to Time Order]
 
-統合(時間順)表示時、カテゴリ表示への切り替えアイコンの![カテゴリ別表示アイコン][Display According]が表示されます。
+統合(時間順)表示時、カテゴリ表示への切り替えアイコンの![カテゴリ別表示アイコン][Display Category]が表示されます。
 
 
 ## RSSリーダーのマージ
@@ -281,11 +281,14 @@ RSSアイテムは設定により、登録されているカテゴリ別また�
 
 [RSS Reader Gadget]: rss-reader-gadget.md "RSSリーダー"
 [Composite RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-1.png "まとめてRSSリーダー"
+[Minimized RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-2.png "最小化されたまとめてRSSリーダー"
 [Gadget menu]: images/widget/composite-rss-reader-gadget-3.png "まとめてRSSリーダーのガジェットメニュー"
+[Settings of Composite RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-4.png "まとめてRSSリーダーのガジェット設定"
 [Maximizing Composite RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-5.png "最大化されたまとめてRSSリーダー"
 [Display According to Category]: images/widget/composite-rss-reader-gadget-6.png "カテゴリ表示時のガジェットメニュー"
 [Display According to Time Order]: images/widget/composite-rss-reader-gadget-7.png "時間順表示時のガジェットメニュー"
 [Merge confirm dialog]: images/widget/composite-rss-reader-gadget-8.png "マージ確認ダイアログの表示"
 [After merged]: images/widget/composite-rss-reader-gadget-9.png "マージ結果"
 [Display According]: ../../images/display_sort.gif "ソート表示アイコン"
+[Display Category]: ../../images/tag.png "カテゴリ別表示アイコン"
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif "ガジェットメニュー表示アイコン"
