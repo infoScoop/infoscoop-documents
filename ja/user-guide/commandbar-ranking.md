@@ -7,4 +7,4 @@
 * コマンドバーの「検索フォーム」で検索された際の検索キーワードのランキングを表示します。
 * [更新]ボタンを押すとランキングが最新に更新されます。（ただし、ランキングの集計は一日に一回です。）
 
-[Ranking]: images/command-bar/ranking.jpg "Ranking"
+[Ranking]: images/command-bar/ranking.png "Ranking"
