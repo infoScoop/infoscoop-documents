@@ -101,7 +101,7 @@
 
 ## タブを追加する
 
-画面に新たにタブを追加するには![タブを追加する][Add the tab]をクリックします。新たなタブが追加されます。
+画面に新たにタブを追加するには[タブを追加する]アイコンをクリックします。新たなタブが追加されます。
 
 ![タブの追加][Adding the tab]
 
@@ -119,7 +119,6 @@
 
 
 [Reloading all tab]: images/user-panel/operations-of-a-tab-1.png "全タブ再読み込み"
-[Add the tab]: images/user-panel/operations-of-a-tab-4.gif "タブを追加する"
 [Adding the tab]: images/user-panel/operations-of-a-tab-2.png "タブの追加"
 [Changing the Display Order]: images/user-panel/operations-of-a-tab-3.png "タブの表示順の変更"
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif "タブメニュー表示アイコン"
