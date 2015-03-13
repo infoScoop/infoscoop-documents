@@ -285,7 +285,7 @@
     </thead>
     <tbody>
         <tr>
-            <td><img src="../../images/refresh.png" alt="更新アイコン"></td>
+            <td><img src="../../images/refresh.gif" alt="更新アイコン"></td>
             <td>更新</td>
             <td>
                 <p>
