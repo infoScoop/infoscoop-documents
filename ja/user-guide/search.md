@@ -10,7 +10,7 @@
 ![検索結果の画面][The Screen of search result]
 
 
-検索結果を閉じるには、![トップページへ][To top page]をクリックします。
+検索結果を閉じるには、[トップページへ]をクリックします。
 
 
 ## 検索オプション
@@ -25,5 +25,4 @@
 
 
 [The Screen of search result]: images/etc/search-1.png "検索結果の画面"
-[To top page]: images/command-bar/going-back-to-top-page-2.png "トップページへ"
 [Selection of the search sites]: images/etc/search-2.png "検索サイトの選択"
