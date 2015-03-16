@@ -66,7 +66,8 @@ RSSリーダーのコントロールとその操作について説明します�
             <td>
                 <p>
                     詳細リンクをクリックするとRSSアイテムの詳細(コンテンツの要約)を表示します。<br>
-                    <img src="images/widget/rss-reader-gadget-2.png" alt="RSSアイテムの詳細"><br>
+                    ![アイテムの詳細][Description]
+                    <br>
                     [閉じる&#60;&#60;]リンクをクリックすると詳細を閉じます。
                 </p>
             </td>
@@ -103,7 +104,7 @@ RSSリーダーのコントロールとその操作について説明します�
                     ガジェットを最小化します。「最小化」アイコンは「元に戻す」アイコンに替わります。<br>
                     最小化すると太陽アイコンが表示され、新着RSSアイテムの件数が表示されます。<br>
                     RSSアイテムの件数は、新着件数/総件数の順で表示されます。<br>
-                    <img src="images/widget/rss-reader-gadget-3.png" alt="RSSリーダーの最小化">
+                    ![RSSリーダーの最小化][Minimized RSS Reader]
                 </p>
             </td>
         </tr>
@@ -167,7 +168,7 @@ RSSリーダーのコントロールとその操作について説明します�
             <td>
                 <p>
                     クリックするとガジェット設定が表示されます。<br>
-                    <img src="images/widget/rss-reader-gadget-5.jpg" alt="RSSリーダーガジェットの設定項目"><br>
+                    ![RSSリーダーガジェットの設定項目][RSS Reader Gadget Settings]<br>
                     <ul>
                         <li>ガジェットタイトル: 任意のガジェットタイトルを挿入します。</li>
                         <li>改行する: RSSアイテムのタイトルを改行して表示するか、一行で表示できない部分を隠すかどうかを選択します。</li>
@@ -379,8 +380,8 @@ RSSリーダーのコントロールとその操作について説明します�
             <td>ヘルプウィンドウを表示します。</td>
         </tr>
         <tr>
-            <td><img src="../../images/restore.gif"/></td>
-            <td>元に戻す</td>
+            <td><img src="../../images/gadget-back.png"/></td>
+            <td>戻る</td>
             <td>最大化されているガジェットを元に戻します。</td>
         </tr>
     </tbody>
@@ -433,7 +434,7 @@ RSSリーダーは以下のようなキーにより、キーボードから操�
         </tr>
         <tr>
             <td>Q</td>
-            <td>元に戻る(最大化解除)(<img src="../../images/restore.gif"/>と同様)</td>
+            <td>戻る(最大化解除)(<img src="../../images/gadget-back.png"/>と同様)</td>
         </tr>
         <tr>
             <td>T</td>
@@ -452,7 +453,10 @@ RSSリーダーは以下のようなキーにより、キーボードから操�
 
 
 [RSS Reader Gadget]: images/widget/rss-reader-gadget-1.png "RSSリーダー"
+[Description]: images/widget/rss-reader-gadget-2.png "RSSアイテムの詳細"
+[Minimized RSS Reader]: images/widget/rss-reader-gadget-3.png "RSSリーダーの最小化"
 [Show Gadget menu]: images/widget/rss-reader-gadget-4.png "ガジェットメニューの表示"
+[RSS Reader Gadget Settings]: images/widget/rss-reader-gadget-5.png "RSSリーダーガジェットの設定項目"
 [Maximizing RSS Reader Gadget]: images/widget/rss-reader-gadget-6.png "拡大化RSSリーダー"
 [Summary display]: images/widget/rss-reader-gadget-7.png "サマリー表示の画面"
 [Full display]: images/widget/rss-reader-gadget-8.png "全文表示の画面"
