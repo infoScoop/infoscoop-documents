@@ -37,7 +37,7 @@
             <td>
                 <p>
                     クリックすると公開メッセージ入力フォームを表示します。<br>
-                    <img src="images/widget/message-gadget-2.jpg" alt="公開メッセージフォーム">
+                    ![公開メッセージフォーム][public message form]
                 </p>
             </td>
         </tr>
@@ -60,7 +60,7 @@
                             <img src="../../images/feed_add.gif" alt="RSSリーダー追加アイコン">アイコンをクリックすると、お知らせ送信されたメッセージを表示するRSSリーダーが追加されます。<br>
                             <img src="../../images/email_edit.gif" alt="メッセージ編集アイコン">アイコンをクリックすると、全ユーザー宛てのメッセージを送信するフォームが表示されます。<br>
                             このアイコンは、システム設定で許可されていない場合は表示されません。<br>
-                            <img src="images/widget/message-gadget-3.jpg" alt="お知らせフォーム">
+                            ![お知らせフォーム][information form]
                         </li>
                         <li>
                             全ユーザーの公開メッセージ<br>
@@ -78,7 +78,7 @@
                     ユーザーグループ名称が表示されます。<br>
                     グループ名称右の<img src="../../images/feed_add.gif" alt="RSSリーダー追加アイコン">アイコンをクリックすると、ユーザーグループに所属する全てのユーザーの送信した公開メッセージおよび自身宛てのメッセージを表示するRSSリーダーが追加されます。<br>
                     <img src="../../images/email_edit.gif" alt="メッセージ編集アイコン">アイコンをクリックすると、ユーザーグループに所属する全てのメンバー宛てのメッセージを送信するフォームが表示されます。<br>
-                    <img src="images/widget/message-gadget-4.jpg" alt="グループメッセージフォーム">
+                    ![グループメッセージフォーム][group message form]
                 </p>
             </td>
         </tr>
@@ -257,7 +257,7 @@
             <td>
                 <p>
                     選択されたメッセージの一覧が表示されます。<br>
-                    <img src="images/widget/message-gadget-6.jpg" alt="メッセージ一覧"><br>
+                    ![メッセージ一覧][message list]<br>
                     <ul>
                         <li>
                             ユーザー名称<br>
@@ -302,8 +302,8 @@
             </td>
         </tr>
         <tr>
-            <td><img src="../../images/restore.gif" alt="元に戻すアイコン"></td>
-            <td>元に戻す</td>
+            <td><img src="../../images/gadget-back.png" alt="戻るアイコン"></td>
+            <td>戻る</td>
             <td>
                 <p>最大化されているガジェットを元に戻します。</p>
             </td>
@@ -365,7 +365,7 @@
                 <p>
                     ユーザー名、メールアドレス、所属組織を条件にしてグループに追加するユーザーを検索することができます。<br>
                     条件を入力し、検索ボタンをクリックすると入力条件で中間一致検索を行い、以下のように検索結果が表示されます。<br>
-                    <img src="images/widget/message-gadget-9.jpg" alt="ユーザー検索フォーム"><br>
+                    ![ユーザー検索フォーム][user search form]<br>
                     検索結果のユーザー名左のチェックボックスにチェックを入れ、ユーザー追加ボタンをクリックすることで選択中のグループにユーザーを追加することができます。
                 </p>
             </td>
@@ -398,10 +398,15 @@
 通知「新着メッセージが届いています。」をクリックすると、メッセージガジェットが最大化状態で表示されます。
 
 
-[message_gadget_jp]: images/widget/message-gadget-1.jpg "メッセージガジェット"
-[message_gadget_maximize_jp]: images/widget/message-gadget-5.jpg "最大化されたメッセージガジェット"
-[message_gadget_groupmodal_search_jp]: images/widget/message-gadget-7.jpg "グループ編集モーダル(ユーザー検索有り)"
+[message_gadget_jp]: images/widget/message-gadget-1.png "メッセージガジェット"
+[public message form]: images/widget/message-gadget-2.png "公開メッセージフォーム"
+[information form]: images/widget/message-gadget-3.png "お知らせフォーム"
+[group message form]: images/widget/message-gadget-4.png "グループメッセージフォーム"
+[message_gadget_maximize_jp]: images/widget/message-gadget-5.png "最大化されたメッセージガジェット"
+[message list]: images/widget/message-gadget-6.png "メッセージ一覧"
+[message_gadget_groupmodal_search_jp]: images/widget/message-gadget-7.png "グループ編集モーダル(ユーザー検索有り)"
 [message_gadget_nosearch]: images/widget/message-gadget-8.png "グループ編集モーダル(ユーザー検索無し)"
-[message_gadget_notice_jp]: images/widget/message-gadget-10.jpg "新着メッセージ通知"
+[user search form]: images/widget/message-gadget-9.jpg "ユーザー検索フォーム"
+[message_gadget_notice_jp]: images/widget/message-gadget-10.png "新着メッセージ通知"
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Refresh icon]: ../../images/refresh.gif "更新アイコン"
