@@ -1,8 +1,8 @@
 #!/bin/sh
 # How to Use this script
-# Place this file, mkdown-to-html.sh to the directory that includes "manual" directory.
-# "manual" directory can be user-manual, administration-guide, or technical-specifications.
-# Edit this file and change the manual directory name if needed.
+# Place this file, mkdown-to-html.sh to the directory that includes "user-guide" directory.
+# "user-guide" directory can be other guide like administration-guide and technical-specifications.
+# Edit this file and change the directory name if needed.
 # Run this file and you'll see the html files in dist directory.
 
 # Create "dist" directory if it doesn't exists.
@@ -10,8 +10,8 @@ if [ ! -e dist ]; then
 mkdir dist
 fi
 
-# Copy the directory structure of "manual" directory. (Files are not to be copied.)
-find manual -type d | xargs -I dir mkdir dist/dir
+# Copy the directory structure of "user-guide" directory. (Files are not to be copied.)
+find user-guide -type d | xargs -I dir mkdir dist/dir
 
 # Convert md files to html files
 find ./ -iname "*.md" -type f | while read FILE
