@@ -6,6 +6,8 @@
 本管理機能により本製品では、以下の内容をカスタマイズすることができます。
 
 * タイトル
+* カスタムテーマ  
+  ポータル画面の色やスタイルを設定できます。
 * コンテントフッター
 * カスタムJavaScript  
   本製品に機能追加用のJavaScriptを指定する際に使用します。
@@ -22,6 +24,7 @@
 サイドバーの右に表示される以下のリストから編集する対象をクリックで選択します。
 
 * title
+* customTheme
 * contentFooter
 * javascript
 * css
@@ -62,7 +65,158 @@
 ログイン画面を使用している場合、タイトルの設定はログイン画面にも反映されます。
 
 
-### 3.2 コンテントフッター（contentFooter）
+### 3.2 カスタムテーマ（customTheme）
+カスタムテーマを設定します。ポータル画面の色やスタイルをinfoScoopの規定するフォーマットに則って部分的に設定できます。
+
+管理画面の［**設定サンプル**］をクリックすると、「設定サンプル」ウィンドウが開きます。表示された設定サンプルの文字列をコピーし、設定編集フォームに貼り付けます。文字列は下記に説明する値でカスタマイズできます。
+<table>
+    <thead>
+        <tr>
+            <th>設定項目</th><th>説明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>tabbar</strong></td>
+            <td>タブバーのスタイルを指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;fontColor</td>
+            <td>タブの文字色をHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;backgroundColor</td>
+            <td>タブの背景色をHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;backgroundGradiationTop</td>
+            <td>タブの上部の背景にかけるグラデーションをHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;backgroundGradiationBottom</td>
+            <td>タブの下部の背景にかけるグラデーションをHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;borderBottom</td>
+            <td>タブバーのボトムの線の色をHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;iconClass</td>
+            <td>
+                タブバーのアイコンのスタイルを指定します。指定できる値は以下の2種類です。
+                <ul>
+                    <li>white: アイコンの色を白にします。</li>
+                    <li>gray: アイコンの色を灰色にします。</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;activetab</td>
+            <td>選択中のタブのスタイルを指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;type</td>
+            <td>
+                選択中のタブのスタイルを指定します。
+                <ul>
+                    <li>fill: タブを長方形で表示します。activetab/backgroundColorがタブの背景色として適用されます。</li>
+                    <li>border: タブの底辺にactivetab/backgroundColorで指定した色の線が表示されます。</li>
+                </ul>
+                なお、activetab/backgroundColorが指定されていない場合は、適用されません。
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;fontColor</td>
+            <td>選択中のタブの文字色をHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;backgroundColor</td>
+            <td>選択中のタブの背景色をHTMLカラーコードで指定します。typeが指定されていない場合は、適用されません。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;fontWeight</td>
+            <td>
+                選択中のタブの文字の太さを指定します。指定できる値は以下の2種類です。
+                <ul>
+                    <li>normal</li>
+                    <li>bold</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>commandbar</strong></td>
+            <td>コマンドバーのスタイルを指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;searchFormButton</td>
+            <td>検索フォームのボタンのスタイルを指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;backgroundColor</td>
+            <td>ボタンの背景色をHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;backgroundGradationTop</td>
+            <td>ボタンの上部の背景にかけるグラデーションをHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;backgroundGradationBottom</td>
+            <td>ボタンの下部の背景にかけるグラデーションをHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;borderColor</td>
+            <td>ボタンの線の色をHTMLカラーコードで指定します。</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;iconClass</td>
+            <td>
+                ボタンのアイコンのスタイルを指定します。指定できる値は以下の2種類です。
+                <ul>
+                    <li>white: アイコンの色を白にします。</li>
+                    <li>gray: アイコンの色を灰色にします。</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+backgroundColorおよびbackgroundGradationTopとbackgroundGradationBottomについて説明します。
+
+* backgroundColorとグラデーションの設定（backgroundGradationTopとbackgroundGradationBottom）の両方に指定がある場合、グラデーションの設定が優先されます。
+* グラデーションはbackgroundGradationTopとbackgroundGradationBottomの両方に指定が無いと適用されません。
+
+以下に設定例を示します。
+
+```
+{
+    "tabbar":{
+        "fontColor":"#ffffff",
+        "backgroundColor":"#0085be",
+        "backgroundGradationTop":"#008bc7",
+        "backgroundGradationBottom":"#0081b8",
+        "borderBottom":"#0072a7",
+        "iconClass":"white",
+        "activetab": {
+            "type":"fill",
+            "fontColor":"#ffffff",
+            "backgroundColor":"#0097d8",
+            "fontWeight": "normal"
+        }
+    },
+    "commandbar":{
+        "searchFormButton":{
+            "backgroundColor":"#bacf02",
+            "backgroundGradationTop":"#c3d900",
+            "backgroundGradationBottom":"#bbcf06",
+            "borderColor":"#bacf02",
+            "iconClass":"white"
+        }
+    }
+}
+```
+
+
+### 3.3 コンテントフッター（contentFooter）
 コンテントフッターのスタイルはXMLの一部を記述します。  
 フォーマットは以下の通りです。
 
@@ -109,14 +263,14 @@
 アイコンが一つも設定されていない場合、フッターは表示されません。
 
 
-### 3.3 JavaScript（javascript）
+### 3.4 JavaScript（javascript）
 JavaScriptを直接記述します。  
 記述したJavaScriptの関数は、ヘッダー、コマンドバーおよびコンテントフッターで利用できます。
 
 **注意** JavaScriptに不正な記述をした場合、本製品が起動しなくなる恐れがあります。また、設定にしたJavaScriptの動作を保障することはできませんので、本設定内容については製品サポート対象外となります。
 
 
-### 3.4 スタイルシート（css）
+### 3.5 スタイルシート（css）
 カスタムスタイルシートを直接記述します。
 
 **注意** スタイルシートに不正な記述をした場合、本製品が起動しなくなる恐れがあります。また、設定にしたスタイルシートの動作を保障することはできませんので、本設定内容については製品サポート対象外となります。カスタマイズ可能なスタイルシートについては将来のバージョンで整理される予定です。
