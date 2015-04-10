@@ -2,7 +2,7 @@
 
 ## Java Development Kit
 
-Java SE 7.0
+Java SE 7, 8
 
 
 ## Application Server
@@ -25,7 +25,7 @@ J2EE application servers supporting Servlet 2.5 and JSP 2.1.
 
 ## Web Browser
 
-* Chrome 34
-* Firefox ESR 24
+* Chrome 41
+* Firefox ESR 31
 * Internet Explorer 8,9,10,11
-* Safari 7.0(Mac)
+* Safari 8.0.x(Mac)

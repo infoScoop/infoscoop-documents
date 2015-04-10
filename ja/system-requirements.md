@@ -2,7 +2,7 @@
 
 ## Java実行環境
 
-Java SE 7.0
+Java SE 7, 8
 
 
 ## アプリケーションサーバ
@@ -25,7 +25,7 @@ Java SE 7.0
 
 ## Webブラウザ
 
-* Chrome 34
-* Firefox ESR 24
+* Chrome 41
+* Firefox ESR 31
 * Internet Explorer 8,9,10,11
-* Safari 7.0(Mac)
+* Safari 8.0.x(Mac)
