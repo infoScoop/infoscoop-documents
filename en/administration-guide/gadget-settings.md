@@ -650,6 +650,10 @@ The user setting items are as follows.
             <td>Height</td>
             <td>Specify the default height of MiniBrowser gadget by pixel.</td>
         </tr>
+        <tr>
+            <td>Separate setting of Auto refresh interval</td>
+            <td>Specify the auto refresh interval of MiniBrowser gadget. When checked, target MiniBrowser gadget is auto refreshing by specified interval. Units of auto refresh interval is the minute.</td>
+        </tr>
     </tbody>
 </table>
 

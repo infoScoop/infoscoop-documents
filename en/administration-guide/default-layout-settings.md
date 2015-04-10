@@ -23,6 +23,8 @@ In Default Layout, the following is the point of a setup.
   3. Each tab - Fixed area
   4. Each tab - Personalized area
 
+![default-layout-settings-target]
+
 ## 2 Default Layout Administration
 
 The operation method about the setting method of `Default Layout` is explained.  
@@ -87,7 +89,7 @@ Explain the context menu of the Default Layout administration page.
     </tbody>
 </table>
 
-## 4 Addition, Edit, And Deletion of a Role
+## 4 Addition, Edit, Copy, And Deletion of a Role
 
 The composition of an initial display page can be changed according to a user's role information.  
 An default layout sets up to each role.  
@@ -105,8 +107,9 @@ If preparing a single initial page for the user of infoScoop, it sets to `defaul
 The respectively suitable value for Role name, Subject, and Regular expression is entered.  Edit becomes possible by Role name and Regular expression clicking a label.
 
   * Operation icons
-    * Add icon: A new setup is added to a roll list.
+    * Add button: A new setup is added to a roll list.
     * Edit icon: The default layout edit display of the selected role is displayed.
+    * Copy icon: Copied selected role.
     * Delete icon: The selected role is deleted. "defaultRole" cannot be deleted.
     * Switch order icon: Display order is replaced by drag-and-drop operation.
 
