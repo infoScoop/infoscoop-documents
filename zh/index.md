@@ -1,7 +1,7 @@
 This document may contain untranslated or unedited parts.  
 [Your cooperation](../README.md) would be greatly appreciated!
 
-# 文档 3.4.0
+# 文档 4.0.0
 
 * [System Requirements]  
   This document is the system requirements of infoScoop OpenSource.

@@ -86,7 +86,7 @@ RSSリーダーと機能が重複する部分については説明を省略し�
                     ガジェットを最小化します。「最小化」アイコンは「元に戻す」アイコンに替わります。<br>
                     最小化すると太陽アイコンが表示され、新着RSSアイテムの件数が表示されます。<br>
                     RSSアイテムの件数は、新着件数/総件数の順で表示されます。<br>
-                    ![最小化されたまとめてRSSリーダー][Minimized RSS Reader Gadget]
+                    <img src="images/widget/composite-rss-reader-gadget-2.png" alt="最小化されたまとめてRSSリーダー">
                 </p>
             </td>
         </tr>
@@ -134,7 +134,7 @@ RSSリーダーと機能が重複する部分については説明を省略し�
             <td>
                 <p>
                     クリックするとガジェット設定が表示されます。<br>
-                    ![まとめてRSSリーダーのガジェット設定][Settings of Composite RSS Reader Gadget]
+                    <img src="images/widget/composite-rss-reader-gadget-4.png" alt="まとめてRSSリーダーのガジェット設定">
                     <ul>
                         <li>ガジェットタイトル: 任意のガジェットタイトルを挿入します。</li>
                         <li>改行する: RSSアイテムのタイトルを改行して表示するか、一行で表示できない部分を隠すかどうかを選択します。</li>
@@ -281,9 +281,7 @@ RSSアイテムは設定により、登録されているカテゴリ別また�
 
 [RSS Reader Gadget]: rss-reader-gadget.md "RSSリーダー"
 [Composite RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-1.png "まとめてRSSリーダー"
-[Minimized RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-2.png "最小化されたまとめてRSSリーダー"
 [Gadget menu]: images/widget/composite-rss-reader-gadget-3.png "まとめてRSSリーダーのガジェットメニュー"
-[Settings of Composite RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-4.png "まとめてRSSリーダーのガジェット設定"
 [Maximizing Composite RSS Reader Gadget]: images/widget/composite-rss-reader-gadget-5.png "最大化されたまとめてRSSリーダー"
 [Display According to Category]: images/widget/composite-rss-reader-gadget-6.png "カテゴリ表示時のガジェットメニュー"
 [Display According to Time Order]: images/widget/composite-rss-reader-gadget-7.png "時間順表示時のガジェットメニュー"

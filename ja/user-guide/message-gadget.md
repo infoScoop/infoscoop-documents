@@ -37,7 +37,7 @@
             <td>
                 <p>
                     クリックすると公開メッセージ入力フォームを表示します。<br>
-                    ![公開メッセージフォーム][public message form]
+                    <img src="images/widget/message-gadget-2.png" alt="公開メッセージフォーム">
                 </p>
             </td>
         </tr>
@@ -60,7 +60,7 @@
                             <img src="../../images/feed_add.gif" alt="RSSリーダー追加アイコン">アイコンをクリックすると、お知らせ送信されたメッセージを表示するRSSリーダーが追加されます。<br>
                             <img src="../../images/email_edit.gif" alt="メッセージ編集アイコン">アイコンをクリックすると、全ユーザー宛てのメッセージを送信するフォームが表示されます。<br>
                             このアイコンは、システム設定で許可されていない場合は表示されません。<br>
-                            ![お知らせフォーム][information form]
+                            <img src="images/widget/message-gadget-3.png" alt="お知らせフォーム">
                         </li>
                         <li>
                             全ユーザーの公開メッセージ<br>
@@ -78,7 +78,7 @@
                     ユーザーグループ名称が表示されます。<br>
                     グループ名称右の<img src="../../images/feed_add.gif" alt="RSSリーダー追加アイコン">アイコンをクリックすると、ユーザーグループに所属する全てのユーザーの送信した公開メッセージおよび自身宛てのメッセージを表示するRSSリーダーが追加されます。<br>
                     <img src="../../images/email_edit.gif" alt="メッセージ編集アイコン">アイコンをクリックすると、ユーザーグループに所属する全てのメンバー宛てのメッセージを送信するフォームが表示されます。<br>
-                    ![グループメッセージフォーム][group message form]
+                    <img src="images/widget/message-gadget-4.png" alt="グループメッセージフォーム">
                 </p>
             </td>
         </tr>
@@ -257,7 +257,7 @@
             <td>
                 <p>
                     選択されたメッセージの一覧が表示されます。<br>
-                    ![メッセージ一覧][message list]<br>
+                    <img src="images/widget/message-gadget-6.png" alt="メッセージ一覧"><br>
                     <ul>
                         <li>
                             ユーザー名称<br>
@@ -365,7 +365,8 @@
                 <p>
                     ユーザー名、メールアドレス、所属組織を条件にしてグループに追加するユーザーを検索することができます。<br>
                     条件を入力し、検索ボタンをクリックすると入力条件で中間一致検索を行い、以下のように検索結果が表示されます。<br>
-                    ![ユーザー検索フォーム][user search form]<br>
+                    ![ユーザー検索フォーム][user search form]
+                    <img src="images/widget/message-gadget-9.jpg"><br>
                     検索結果のユーザー名左のチェックボックスにチェックを入れ、ユーザー追加ボタンをクリックすることで選択中のグループにユーザーを追加することができます。
                 </p>
             </td>
@@ -399,14 +400,9 @@
 
 
 [message_gadget_jp]: images/widget/message-gadget-1.png "メッセージガジェット"
-[public message form]: images/widget/message-gadget-2.png "公開メッセージフォーム"
-[information form]: images/widget/message-gadget-3.png "お知らせフォーム"
-[group message form]: images/widget/message-gadget-4.png "グループメッセージフォーム"
 [message_gadget_maximize_jp]: images/widget/message-gadget-5.png "最大化されたメッセージガジェット"
-[message list]: images/widget/message-gadget-6.png "メッセージ一覧"
 [message_gadget_groupmodal_search_jp]: images/widget/message-gadget-7.png "グループ編集モーダル(ユーザー検索有り)"
 [message_gadget_nosearch]: images/widget/message-gadget-8.png "グループ編集モーダル(ユーザー検索無し)"
-[user search form]: images/widget/message-gadget-9.jpg "ユーザー検索フォーム"
 [message_gadget_notice_jp]: images/widget/message-gadget-10.png "新着メッセージ通知"
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Refresh icon]: ../../images/refresh.gif "更新アイコン"

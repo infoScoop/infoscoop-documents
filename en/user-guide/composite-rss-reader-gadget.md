@@ -133,7 +133,7 @@ Menu of Gadget is opened if Show Menu(![Gadget Menu icon])icon is clicked.
             <td>
                 <p>
                     The following gadget settings is displayed by clicking this icon.<br>
-                    <img src="images/widget/composite-rss-reader-gadget-4.jpg" alt="Setting of gadget"><br>
+                    <img src="images/widget/composite-rss-reader-gadget-4.png" alt="Setting of gadget"><br>
                     <ul>
                         <li>Gadget title: Type title of Gadget.</li>
                         <li>Start a new line: select whether to start a new line to display titles or to hide the part that cannot be displayed in one line.</li>

@@ -134,7 +134,7 @@
             <td>
                 <p>
                     单击后，小工具设定就被表示。<br>
-                    <img src="images/widget/composite-rss-reader-gadget-4.jpg"><br>
+                    <img src="images/widget/composite-rss-reader-gadget-4.png"><br>
                     <ul>
                         <li>小工具标题:插入任意的小工具的标题。</li>
                         <li>换行: 选择RSS项的标题换行表示，或者一行表示不了的隐藏表示。</li>

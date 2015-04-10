@@ -16,32 +16,6 @@ Global settings screen includes General settings, RSS display settings and Initi
 
 
 
-## Wall Paper Setting
-
-
-
-You can choose background image of infoScoop.
-
-
-
-## Gadget Design Settings
-
-
-
-At the Gadget Design Settings, the following items can be setup.
-
-
-
-  * Backgroud image of gadget header：This setting change background image of gadget header.
-
-  * Backgroud image of sub gadgets header：This setting change background image of sub gadget header.
-
-  * No display frame border：Switch a border of gadgets Show/Hide.
-
-  * Round a corner of gadgets：Switch a corner of gadgets round or square.
-
-
-
 ## General settings
 
 

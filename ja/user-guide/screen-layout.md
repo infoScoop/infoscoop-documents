@@ -31,7 +31,7 @@ infoScoopは以下のようにいくつかのパネルによって構成され�
                     <li>メッセージコンソール(必須)</li>
                     <li>URLリンク(任意)</li>
                 </ul>
-                ティッカー、検索フォーム以外のコンポーネントは、![ユーザーメニュー][User Menu]をクリックすることで表示されます。
+                ティッカー、検索フォーム以外のコンポーネントは、<img src="images/command-bar/screen-layout-2.png" alt="ユーザーメニュー">をクリックすることで表示されます。
             </td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@ infoScoopは以下のようにいくつかのパネルによって構成され�
                 [コンテンツ追加]: トップメニューにはないRSSやWebサイトを追加するためのコントロールを提供します。<br>
                 [マイサイトマップ]: 各タブのパーソナライズエリアに設置しているガジェットを一覧で表示します。<br>
                 サイドパネルは、各タブをクリックすると開きます。<br>
-                ![サイドパネル][Side Panel]
+                <img src="images/layout/screen-layout-3.png" alt="サイドパネル"><br>
                 サイドパネルを開くとドラッグ&ドロップで幅を調節できます。調整した幅は保存されません。
             </td>
         </tr>
@@ -90,6 +90,4 @@ infoScoopは、画面上(コマンドバー、固定エリアおよびパーソ�
 
 
 [Descriptions of Panels]: images/layout/screen-layout-1.png "画面構成"
-[User Menu]: images/command-bar/screen-layout-2.png "ユーザーメニュー"
-[Side Panel]: images/layout/screen-layout-3.png "サイドパネル"
 [RSS Gadget]: images/layout/screen-layout-4.png "RSSリーダーガジェット"

@@ -1,4 +1,4 @@
-# ドキュメント 3.4.0
+# ドキュメント 4.0.0
 
 * [システム要件][System Requirements]  
   infoScoop OpenSourceのシステム要件です。

@@ -6,7 +6,9 @@
 
 ![Before moving]
 
-![Drag and drop]
+![Drag]
+
+![Drop]
 
 想移至标签的时候，像下面一样拖放小工具。
 
@@ -18,6 +20,7 @@
 
 
 [Before moving]: images/user-panel/moving-a-gadget-of-the-personalized-area-1.png
-[Drag and drop]: images/user-panel/moving-a-gadget-of-the-personalized-area-2.png
-[Drop into the tab]: images/user-panel/moving-a-gadget-of-the-personalized-area-3.png
-[Dropped Gadget]: images/user-panel/moving-a-gadget-of-the-personalized-area-4.png
+[Drag]: images/user-panel/moving-a-gadget-of-the-personalized-area-2.png
+[Drop]: images/user-panel/moving-a-gadget-of-the-personalized-area-3.png
+[Drop into the tab]: images/user-panel/moving-a-gadget-of-the-personalized-area-4.png
+[Dropped Gadget]: images/user-panel/moving-a-gadget-of-the-personalized-area-5.png

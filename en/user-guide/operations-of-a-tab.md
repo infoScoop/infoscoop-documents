@@ -97,7 +97,7 @@ Moreover, when all tabs are reloading, the progress bar is displayed at the bott
 
 ## Adding a Tab
 
-Click ![Add the tab] to add a new tab to the screen. A new tab is added.
+Click "Add a tab" button to add a new tab to the screen. A new tab is added.
 ![Adding the tab]
 
 The maximum number of tabs that can be added depends on the system setting.
@@ -112,7 +112,6 @@ Drag the label of the tab of the object, and drop in a tab place where you want 
 
 
 [Reloading all tab]: images/user-panel/operations-of-a-tab-1.png
-[Add the tab]: images/user-panel/operations-of-a-tab-4.png
 [Adding the tab]: images/user-panel/operations-of-a-tab-2.png
 [Changing the Display Order]: images/user-panel/operations-of-a-tab-3.png
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif

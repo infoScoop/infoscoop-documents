@@ -1,4 +1,4 @@
-# Document 3.4.0
+# Document 4.0.0
 
 * [System Requirements]  
   This document is the system requirements of infoScoop OpenSource.

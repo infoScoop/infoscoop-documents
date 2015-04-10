@@ -37,7 +37,7 @@
             <td>
                 <p>
                     点击后，信息的输入框被表示。<br>
-                    <img src="images/widget/message-gadget-2.jpg">
+                    <img src="images/widget/message-gadget-2.png">
                 </p>
             </td>
         </tr>
@@ -60,7 +60,7 @@
                             点击<img src="../../images/feed_add.gif">图标后，表示已送出的通知信息的RSS阅读器被追加。<br>
                             点击<img src="../../images/email_edit.gif">图标后，表示全用户的公开信息及自己的信息的RSS阅读器被追加。<br>
                             这个图标如果不被系统设定许可的话，不被表示。<br>
-                            <img src="images/widget/message-gadget-3.jpg">
+                            <img src="images/widget/message-gadget-3.png">
                         </li>
                         <li>
                             全用户的公开信息<br>
@@ -78,7 +78,7 @@
                     用户组名称被表示。<br>
                     点击组名称右侧的<img src="../../images/feed_add.gif">图标后，表示用户组所属的全部的用户送信的公开信息以及自己的信息的RSS阅读器被追加。<br>
                     点击<img src="../../images/email_edit.gif">图标，发送给用户组所属的全部用户的信息送信框被表示。<br>
-                    <img src="images/widget/message-gadget-4.jpg">
+                    <img src="images/widget/message-gadget-4.png">
                 </p>
             </td>
         </tr>
@@ -257,7 +257,7 @@
             <td>
                 <p>
                     被选择的信息的一览被表示。<br>
-                    <img src="images/widget/message-gadget-6.jpg"><br>
+                    <img src="images/widget/message-gadget-6.png"><br>
                     <ul>
                         <li>
                             用户名称<br>
@@ -398,10 +398,10 @@
 点击通知[收到新的消息。]，信息小工具以最大化的状态被表示。
 
 
-[message_gadget_jp]: images/widget/message-gadget-1.jpg
-[message_gadget_maximize_jp]: images/widget/message-gadget-5.jpg
-[message_gadget_groupmodal_search_jp]: images/widget/message-gadget-7.jpg
+[message_gadget_jp]: images/widget/message-gadget-1.png
+[message_gadget_maximize_jp]: images/widget/message-gadget-5.png
+[message_gadget_groupmodal_search_jp]: images/widget/message-gadget-7.png
 [message_gadget_nosearch]: images/widget/message-gadget-8.png
-[message_gadget_notice_jp]: images/widget/message-gadget-10.jpg
+[message_gadget_notice_jp]: images/widget/message-gadget-10.png
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Refresh icon]: ../../images/refresh.gif

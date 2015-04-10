@@ -24,7 +24,7 @@ This page explains the controls and the operations of Message Gadget.
         <tr>
             <td>(3)</td>
             <td>Public Message</td>
-            <td>The form to enter a public message is displayed by clicking it.<br><img src="images/widget/message-gadget-2.jpg"/></td>
+            <td>The form to enter a public message is displayed by clicking it.<br><img src="images/widget/message-gadget-2.png"/></td>
         </tr>
         <tr>
             <td>(4)</td>
@@ -33,7 +33,7 @@ This page explains the controls and the operations of Message Gadget.
                 <ul>
                     <li>Received message<br>By clicking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows the user's received messages is added.</li>
                     <li>Sent message<br>By clicking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows the public messages and usual messages that were sent by the user is added.</li>
-                    <li>Information<br>By clicking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows messages that were sent as Information is added.<br>By clicking <img src="../../images/email_edit.gif"/> icon, the form to send messages to all users is displayed.<br>The icon is not displayed if it is not allowed under system settings.<br><img src="images/widget/message-gadget-3.jpg"/></li>
+                    <li>Information<br>By clicking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows messages that were sent as Information is added.<br>By clicking <img src="../../images/email_edit.gif"/> icon, the form to send messages to all users is displayed.<br>The icon is not displayed if it is not allowed under system settings.<br><img src="images/widget/message-gadget-3.png"/></li>
                     <li>All users's public message<br>By cliking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows public messages of all users and the user's received messages is added.</li>
                 </ul>
             </td>
@@ -41,7 +41,7 @@ This page explains the controls and the operations of Message Gadget.
         <tr>
             <td>(5)</td>
             <td>User Group Header</td>
-            <td>User group name is displayed.<br>By clicking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows all public messages that were sent by the user group members and messages to yourself is added.<br><img src="../../images/email_edit.gif"/> icon shows the form to send a message to all of the user group members.<br><img src="images/widget/message-gadget-4.jpg"/></td>
+            <td>User group name is displayed.<br>By clicking <img src="../../images/feed_add.gif"/> icon, RSS reader which shows all public messages that were sent by the user group members and messages to yourself is added.<br><img src="../../images/email_edit.gif"/> icon shows the form to send a message to all of the user group members.<br><img src="images/widget/message-gadget-4.png"/></td>
         </tr>
         <tr>
             <td>(6)</td>
@@ -163,7 +163,7 @@ When [Maximize] icon is clicked, maximized Message Gadget is displayed as follow
         <tr>
             <td>(6)</td>
             <td>Message Display Pane</td>
-            <td>Show the list of messages as a item is selected.<br><img src="images/widget/message-gadget-6.jpg"/>
+            <td>Show the list of messages as a item is selected.<br><img src="images/widget/message-gadget-6.png"/>
                 <ul>
                     <li>Username<br>When clicked, it works in the same way as 5.</li>
                     <li>Reply<br>When clicked, the form to enter a message to the message sender is displayed.</li>
@@ -260,10 +260,10 @@ However, time lag may occur sometimes.
 When clicking the notice, `You have a new message`, Message Gadget is maximized.
 
 
-[message_gadget_jp]: images/widget/message-gadget-1.jpg
-[message_gadget_maximize_jp]: images/widget/message-gadget-5.jpg
-[message_gadget_groupmodal_jp]: images/widget/message-gadget-7.jpg
+[message_gadget_jp]: images/widget/message-gadget-1.png
+[message_gadget_maximize_jp]: images/widget/message-gadget-5.png
+[message_gadget_groupmodal_jp]: images/widget/message-gadget-7.png
 [message_gadget_nosearch]: images/widget/message-gadget-8.png
-[message_gadget_notice_jp]: images/widget/message-gadget-10.jpg
+[message_gadget_notice_jp]: images/widget/message-gadget-10.png
 [Gadget Menu icon]: ../../images/show_hidden_icons.gif
 [Refresh icon]: ../../images/refresh.gif

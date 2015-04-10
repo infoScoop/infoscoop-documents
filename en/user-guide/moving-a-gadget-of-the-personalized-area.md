@@ -6,7 +6,9 @@ Use the mouse to drag the title bar of Gadget which you want to move. Guide box(
 
 ![Before moving]
 
-![Drag and drop]
+![Drag]
+
+![Drop]
 
 If you want to move the tab, drop the Gadget to the tab as the following.
 
@@ -18,6 +20,7 @@ If the Gadget is dropped to the tab, it is added to the front position of the or
 
 
 [Before moving]: images/user-panel/moving-a-gadget-of-the-personalized-area-1.png
-[Drag and drop]: images/user-panel/moving-a-gadget-of-the-personalized-area-2.png
-[Drop into the tab]: images/user-panel/moving-a-gadget-of-the-personalized-area-3.png
-[Dropped Gadget]: images/user-panel/moving-a-gadget-of-the-personalized-area-4.png
+[Drag]: images/user-panel/moving-a-gadget-of-the-personalized-area-2.png
+[Drop]: images/user-panel/moving-a-gadget-of-the-personalized-area-3.png
+[Drop into the tab]: images/user-panel/moving-a-gadget-of-the-personalized-area-4.png
+[Dropped Gadget]: images/user-panel/moving-a-gadget-of-the-personalized-area-5.png
