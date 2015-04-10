@@ -51,6 +51,7 @@ socket=/var/lib/mysql/mysql.sock
 # clients (those using the mysqlclient10 compatibility package).
 old_passwords=1
 default-character-set=utf8
+lower_case_table_names=1
 ```
 
 以下のコマンドを実行しMySQLの再起動します。

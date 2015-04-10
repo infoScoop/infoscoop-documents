@@ -44,6 +44,7 @@ $ vi /etc/my.cnf
     # clients (those using the mysqlclient10 compatibility package).
     old_passwords=1
     default-character-set=utf8
+    lower_case_table_names=1
 
 Execute the following command to restart MySQL.
 

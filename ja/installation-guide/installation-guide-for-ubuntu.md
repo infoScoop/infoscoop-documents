@@ -53,6 +53,7 @@ default-character-set=utf8
 
 [mysqld]
 default-character-set=utf8
+lower_case_table_names=1
 ```
 
 以下のコマンドを実行しMySQLを再起動します。

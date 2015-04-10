@@ -28,6 +28,7 @@ See [System Requirements][System Requirements] for checking the supported versio
 
 **注** 利用多字节文字时候，需要制作数据库时候，做多字节文字能利用的设定。
 **注** DB2请指定page size为32k。
+**注** 当为Linux使用MySQL，指定`lower_case_table_name = 1`在my.cnf中。
 
 
 ### 表定义

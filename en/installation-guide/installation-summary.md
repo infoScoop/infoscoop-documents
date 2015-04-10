@@ -29,7 +29,11 @@ Create database for infoscoop repository in using DBMS.
 The database that can process multibyte characters is needed to be created if multibyte characters are used.
 
 **Note:**  
-Specify 32k for page size in DB2
+Specify 32k for page size in DB2.
+
+**Note:**  
+When using MySQL for Linux, specify `lower_case_table_name=1` in my.cnf.
+
 
 ### Schema Definition
 
